@@ -61,7 +61,7 @@ export async function render(view, route) {
       h('h1', { style: { marginBottom: '2px' } }, `${result} against ${botName(bot)}`),
       h('div', { class: 'muted small' }, `${fmtDateTime(game.ts)} · ${game.mode === 'rated' ? 'Rated' : 'Practice'} · you had ${you === 'w' ? 'white' : 'black'}${game.reason ? ' · ' + game.reason : ''}`)),
     h('div', { class: 'play' },
-      h('div', { class: 'stack' }, h('div', { class: 'boardwrap' }, boardEl), graph),
+      h('div', { class: 'stack gamecol reviewcol' }, h('div', { class: 'boardwrap' }, boardEl), graph),
       h('div', { class: 'side' }, review ? null : progressBox, summaryBox, comment, movesEl, navEl, tools, keyBox)));
 
   const style = store.getStyle();

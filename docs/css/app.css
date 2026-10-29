@@ -99,6 +99,7 @@ table.list tr.click:hover td { background: var(--panel2); }
 .gamecol { width: 100%; max-width: min(100%, calc(100vh - 175px)); margin: 0 auto; }
 .gamecol > * + * { margin-top: 8px; }
 .gamecol .boardwrap { max-width: none; }
+.reviewcol { max-width: min(100%, calc(100vh - 220px)); }
 .side { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
 .player { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 12px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); }
 .player .name { font-weight: 600; }

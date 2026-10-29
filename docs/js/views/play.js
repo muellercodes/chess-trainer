@@ -48,6 +48,7 @@ export async function render(view) {
     return;
   }
 
+  window.__ctGame = { get chess() { return chess; }, cfg }; // used by the browser tests
   let destroyed = false;
   let token = 0;
   let thinking = false;
@@ -143,7 +144,7 @@ export async function render(view) {
   function setStatus(text) { status.textContent = text; }
 
   function liveStatus() {
-    if (over) return;
+    if (over) { setStatus('Game over.'); return; }
     if (viewPly != null) { setStatus('Looking at an earlier move. Press the last arrow to go back to the game.'); return; }
     if (mode === 'free') { setStatus(sideName(chess.turn()) + ' to move'); return; }
     if (thinking) setStatus(botName(bot) + ' is thinking...');
@@ -400,7 +401,7 @@ export async function render(view) {
     const bestSan = sanOf(fenBefore, pre.best);
     if (drop < T_BLUNDER) {
       coachBox.className = 'coach';
-      clear(coachBox).append(h('div', null, h('b', null, 'Inaccurate. '), `${bestSan} was better.`));
+      clear(coachBox).append(h('div', null, h('b', null, 'Not the best move. '), `${bestSan} was better.`));
       return true;
     }
     coachBox.className = 'coach bad';
