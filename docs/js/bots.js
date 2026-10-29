@@ -11,14 +11,14 @@
 export const BOT_RD = 60; // how sure we are about each bot's rating
 
 export const BOTS = [
-  { id: 'l1', level: 1, rating: 250, weak: { depth: 1, random: 0.55, temp: 700 } },
-  { id: 'l2', level: 2, rating: 400, weak: { depth: 2, random: 0.4, temp: 450 } },
-  { id: 'l3', level: 3, rating: 550, weak: { depth: 3, random: 0.28, temp: 320 } },
-  { id: 'l4', level: 4, rating: 700, weak: { depth: 4, random: 0.19, temp: 230 } },
-  { id: 'l5', level: 5, rating: 850, weak: { depth: 5, random: 0.13, temp: 165 } },
-  { id: 'l6', level: 6, rating: 1000, weak: { depth: 6, random: 0.08, temp: 115 } },
-  { id: 'l7', level: 7, rating: 1150, weak: { depth: 7, random: 0.05, temp: 80 } },
-  { id: 'l8', level: 8, rating: 1300, weak: { depth: 8, random: 0.03, temp: 55 } },
+  { id: 'l1', level: 1, rating: 300, weak: { depth: 2, random: 0.4, temp: 450 } },
+  { id: 'l2', level: 2, rating: 450, weak: { depth: 3, random: 0.24, temp: 280 } },
+  { id: 'l3', level: 3, rating: 600, weak: { depth: 4, random: 0.19, temp: 230 } },
+  { id: 'l4', level: 4, rating: 750, weak: { depth: 5, random: 0.15, temp: 190 } },
+  { id: 'l5', level: 5, rating: 900, weak: { depth: 5, random: 0.13, temp: 165 } },
+  { id: 'l6', level: 6, rating: 1050, weak: { depth: 6, random: 0.08, temp: 115 } },
+  { id: 'l7', level: 7, rating: 1200, weak: { depth: 6, random: 0.065, temp: 95 } },
+  { id: 'l8', level: 8, rating: 1325, weak: { depth: 7, random: 0.05, temp: 80 } },
   { id: 'l9', level: 9, rating: 1450, sf: 1450 },
   { id: 'l10', level: 10, rating: 1600, sf: 1600 },
   { id: 'l11', level: 11, rating: 1750, sf: 1750 },

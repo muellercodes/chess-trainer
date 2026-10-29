@@ -11,5 +11,5 @@ ALLOWED_ORIGINS = "https://muellercodes.github.io,http://localhost:8000,http://1
 [[d1_databases]]
 binding = "DB"
 database_name = "chess-trainer-db"
-database_id = "00000000-0000-0000-0000-000000000000"
+database_id = "f46582df-5511-45ed-a374-71a1eb958d11"
 migrations_dir = "migrations"
