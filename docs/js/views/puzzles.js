@@ -110,6 +110,7 @@ export async function render(view, route) {
     if (t !== token || destroyed) return;
     if (!p) { status.textContent = 'No puzzles found for that choice.'; return; }
     pz = { id: p[0], fen: p[1], moves: p[2].split(' '), rating: p[3], themes: p[4].split(' ') };
+    window.__ctPuzzle = pz;
     chess = new Chess(pz.fen);
     userColor = chess.turn() === 'w' ? 'b' : 'w';
     board.setOrientation(userColor === 'w' ? 'white' : 'black');

@@ -78,7 +78,7 @@ export async function render(view) {
   const titleEl = h('div', { class: 'muted small' }, cfg.title || modeTitle());
 
   const playGrid = h('div', { class: 'play' },
-    h('div', { class: 'stack' },
+    h('div', { class: 'stack gamecol' },
       oppCard,
       h('div', { class: 'boardcol' }, evalBar, h('div', { class: 'boardwrap' }, boardEl)),
       youCard),
@@ -271,6 +271,10 @@ export async function render(view) {
       anaCache.set(key, anaEngine().analyse(fen, { depth }).then((r) => {
         const l = r.lines[0];
         return { cp: l ? cpOf(l.score) : 0, score: l ? l.score : null, best: r.bestmove, pv: l ? l.pv : [] };
+      }).catch((e) => {
+        console.warn('analysis failed', e);
+        anaCache.delete(key);
+        return { cp: 0, score: null, best: null, pv: [], error: true };
       }));
     }
     return anaCache.get(key);
@@ -388,6 +392,7 @@ export async function render(view) {
     const pre = await ana(fenBefore);
     const post = await ana(chess.fen());
     if (destroyed || t !== token) return 'undo';
+    if (pre.error || post.error || !pre.best || !post.best) return true;
     const before = winPct(pre.cp);
     const after = 100 - winPct(post.cp);
     const drop = before - after;

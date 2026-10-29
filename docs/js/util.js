@@ -1,5 +1,11 @@
 // Small DOM and formatting helpers.
 
+// Let element.append() take arrays and skip null/false, the same way h() treats children.
+const nativeAppend = Element.prototype.append;
+Element.prototype.append = function (...nodes) {
+  return nativeAppend.apply(this, nodes.flat(Infinity).filter((n) => n != null && n !== false));
+};
+
 export function h(tag, attrs, ...kids) {
   const el = document.createElement(tag);
   if (attrs) {

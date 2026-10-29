@@ -121,6 +121,24 @@ console.log('puzzles');
 await page.goto(SITE + '#/puzzles');
 await page.waitForSelector('text=Your turn', { timeout: 15000 });
 ok((await page.$$('.cb-pcs .pc')).length > 2, 'puzzle position shown');
+// solve one for real by clicking the solution moves
+async function clickMove(u) {
+  await clickSq(u.slice(0, 2)); await sleep(80); await clickSq(u.slice(2, 4));
+  if (u[4]) { await sleep(150); await page.click('.cb-promo .opt[title=' + u[4].toUpperCase() + ']'); }
+}
+let solvedOne = false;
+for (let attempt = 0; attempt < 3 && !solvedOne; attempt++) {
+  const pz = await page.evaluate(() => window.__ctPuzzle);
+  for (let i = 1; i < pz.moves.length; i += 2) {
+    await page.waitForFunction(() => document.querySelector('.status').textContent.match(/Your (turn|move)/));
+    await clickMove(pz.moves[i]);
+    await sleep(700);
+  }
+  solvedOne = (await page.textContent('.status')).startsWith('Solved');
+}
+ok(solvedOne, 'solved a puzzle by playing the moves');
+await page.click('text=Next puzzle');
+await page.waitForSelector('text=Your turn', { timeout: 15000 });
 await page.click('text=View the solution');
 await page.waitForSelector('text=Next puzzle', { timeout: 15000 });
 ok((await page.textContent('.status')).startsWith('Solution:'), 'solution plays out');

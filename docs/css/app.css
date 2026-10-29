@@ -72,6 +72,7 @@ input[type=color] { width: 40px; height: 30px; padding: 0; border: 1px solid var
 /* cards */
 .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
 .card + .card { margin-top: 14px; }
+.grid2 > .card, .grid3 > .card { margin-top: 0; }
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
 .stack > * + * { margin-top: 14px; }
@@ -95,6 +96,9 @@ table.list tr.click:hover td { background: var(--panel2); }
 .boardwrap { flex: 1; width: 100%; min-width: 0; max-width: min(100%, calc(100vh - 130px)); margin: 0 auto; }
 .editorwrap { max-width: min(100%, calc(100vh - 250px)); }
 .editorwrap + .palette { max-width: min(100%, calc(100vh - 250px)); margin: 0 auto; width: 100%; }
+.gamecol { width: 100%; max-width: min(100%, calc(100vh - 175px)); margin: 0 auto; }
+.gamecol > * + * { margin-top: 8px; }
+.gamecol .boardwrap { max-width: none; }
 .side { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
 .player { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 12px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); }
 .player .name { font-weight: 600; }
