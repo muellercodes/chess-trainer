@@ -33,8 +33,8 @@ async function clickSq(sq) { const p = await sqCenter(sq); await page.mouse.clic
 
 console.log('home');
 await page.goto(SITE + '?api=' + encodeURIComponent(API) + '#/');
-await page.waitForSelector('.ratingcard');
-ok(await page.isVisible('text=Find your rating'), 'guest sees "Find your rating"');
+await page.waitForSelector('.cb-pcs .pc');
+ok((await page.$$('.cb-pcs .pc')).length === 32 && await page.isVisible('button >> text=Casual'), 'landing page shows the board and the experience picker');
 await page.screenshot({ path: SHOTS + 'home.png' });
 
 console.log('editor');
@@ -160,7 +160,7 @@ await mp.goto(SITE + '#/editor');
 await mp.waitForSelector('.palette');
 await mp.screenshot({ path: SHOTS + 'mobile-editor.png', fullPage: true });
 await mp.goto(SITE + '#/');
-await mp.waitForSelector('.ratingcard');
+await mp.waitForSelector('.cb-pcs .pc');
 await mp.screenshot({ path: SHOTS + 'mobile-home.png', fullPage: true });
 
 const real = errors.filter((e) => !/stockfish|Failed to load resource|ERR_FAILED/i.test(e));

@@ -7,7 +7,7 @@ import { isProvisional } from './glicko.js';
 const routes = {
   home: () => import('./views/home.js'),
   play: () => import('./views/play.js'),
-  practice: () => import('./views/practice.js'),
+  practice: () => import('./views/home.js'),
   review: () => import('./views/review.js'),
   puzzles: () => import('./views/puzzles.js'),
   drills: () => import('./views/drills.js'),

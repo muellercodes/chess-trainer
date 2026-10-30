@@ -96,7 +96,7 @@ table.list tr.click:hover td { background: var(--panel2); }
 .boardwrap { flex: 1; width: 100%; min-width: 0; max-width: min(100%, calc(100vh - 130px)); margin: 0 auto; }
 .editorwrap { max-width: min(100%, calc(100vh - 250px)); }
 .editorwrap + .palette { max-width: min(100%, calc(100vh - 250px)); margin: 0 auto; width: 100%; }
-.gamecol { width: 100%; max-width: min(100%, calc(100vh - 175px)); margin: 0 auto; }
+.gamecol { width: 100%; max-width: min(100%, calc(100vh - 205px)); margin: 0 auto; }
 .gamecol > * + * { margin-top: 8px; }
 .gamecol .boardwrap { max-width: none; }
 .reviewcol { max-width: min(100%, calc(100vh - 220px)); }

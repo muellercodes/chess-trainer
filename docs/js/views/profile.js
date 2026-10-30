@@ -27,6 +27,30 @@ function chart(points) {
   return svg;
 }
 
+function planCard(g, games) {
+  const d = store.daily();
+  const items = [];
+  if (!g) items.push(['Play your placement games to find your rating.', '#/']);
+  else if (store.inPlacement()) items.push([`Finish your placement games (${g.n} of ${store.PLACEMENT_GAMES} done).`, '#/']);
+  const last = games[0];
+  if (last && !last.review) items.push([`Review your last game against ${botName(botById(last.botId))}.`, '#/review/' + last.id]);
+  const reviewed = games.filter((x) => x.review && x.review.you).slice(0, 8);
+  if (reviewed.length >= 2) {
+    const avgBl = reviewed.reduce((a, x) => a + (x.review.you.blunders || 0), 0) / reviewed.length;
+    const avgAcc = reviewed.reduce((a, x) => a + (x.review.you.acc || 0), 0) / reviewed.length;
+    if (avgBl >= 1.5) items.push([`${avgBl.toFixed(1)} blunders a game lately. Before each move, check what the last move attacks and what you left undefended.`, '#/puzzles?theme=hangingPiece']);
+    else items.push([`Recent accuracy ${Math.round(avgAcc)}%. Puzzles push it up fastest.`, '#/puzzles']);
+  }
+  items.push([`10 puzzles today (${Math.min(d.puzzles, 10)}/10).`, '#/puzzles']);
+  if (Object.keys(store.getData('drills', {})).length < 3) items.push(['Learn the basic checkmates.', '#/drills']);
+  if (g && !store.inPlacement()) {
+    const next = BOTS.find((b) => b.rating > g.r + 50);
+    if (next) items.push([`Next goal: beat ${botName(next)} (${next.rating}).`, '#/']);
+  }
+  return h('div', { class: 'card', style: { marginBottom: '14px' } }, h('h2', null, 'Training plan'),
+    h('ol', { class: 'plan' }, items.map(([t, href]) => h('li', null, h('a', { href }, t)))));
+}
+
 export async function render(view) {
   const u = store.state.user;
   const g = store.state.ratings.game;
@@ -62,6 +86,7 @@ export async function render(view) {
   ]);
 
   chartCard.lastChild.replaceWith(chart(points));
+  view.insertBefore(planCard(g, games), top);
 
   const t = h('table', { class: 'list' }, h('tr', null, h('th', null, 'Level'), h('th', null, 'Rating'), h('th', null, 'Won'), h('th', null, 'Drawn'), h('th', null, 'Lost')));
   let any = false;

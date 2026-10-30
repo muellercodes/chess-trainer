@@ -43,12 +43,13 @@ const userTurn = () => page.waitForFunction(() => {
 await page.goto(SITE + '?api=' + encodeURIComponent(API) + '#/');
 await page.evaluate(() => { localStorage.clear(); localStorage.setItem('ct.api', 'http://127.0.0.1:8787'); localStorage.setItem('ct.guest', JSON.stringify({ data: { style: { autoQueen: true, confirmResign: false } }, stamps: {} })); });
 await page.goto(SITE + '#/');
-await page.waitForSelector('text=Find your rating');
+await page.waitForSelector('button >> text=Casual');
 
 console.log('placement game');
 const t0 = Date.now();
-await page.click('text=I play now and then');
-await page.waitForSelector('.cb-pcs .pc');
+await page.click('button >> text=Casual');
+await page.click('.side button.primary >> text=Play');
+await page.waitForFunction(() => window.__ctGame && location.hash === '#/play');
 const cfg = await page.evaluate(() => window.__ctGame.cfg);
 ok(cfg.mode === 'rated' && ['w', 'b'].includes(cfg.color), `rated game started, you play ${cfg.color === 'w' ? 'white' : 'black'} against ${cfg.botId}`);
 for (let i = 0; i < 6; i++) {
@@ -93,8 +94,8 @@ console.log('practice with coach');
 const blunderFen = 'r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3';
 await page.goto(SITE + '#/practice?fen=' + encodeURIComponent(blunderFen));
 await page.click('.seg button >> text=White');
-await page.click('.level >> text=Level 5');
-await page.click('text=Start game');
+await page.selectOption('.side select >> nth=0', 'l5');
+await page.click('.side button.primary >> text=Play');
 await userTurn();
 // Qe2?? is fine, but Nxe5?? Nxe5 loses a knight. Play Nf3-g5?? no: use Ng5 which hangs nothing... choose Nxe5
 await clickSq('f3'); await clickSq('e5');
@@ -144,6 +145,7 @@ await page.waitForSelector('text=You lost');
 
 console.log('analysis board');
 await page.goto(SITE + '#/');
+await page.click('.seg button >> text=Practice');
 await page.click('text=Analysis board');
 await page.waitForSelector('text=White to move');
 await clickSq('e2'); await clickSq('e4');
