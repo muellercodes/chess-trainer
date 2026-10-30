@@ -6,7 +6,7 @@ Live: https://muellercodes.github.io/chess-trainer/
 
 ## What it does
 
-- **Find your rating.** Five placement games against computer opponents chosen near your current estimate. White or black is a coin flip every rated game. After that, pick any of the 16 levels for rated games.
+- **Find your rating.** Five placement games, each against the computer level closest to your current estimate. White or black is a coin flip every rated game. After that, pick any of the 16 levels for rated games. Leaving a rated game unfinished counts as a loss; aborting before your first move does not count.
 - **Ratings** use Glicko-2, one game per rating period (the way Lichess does it). The rating shows a `?` while it is still uncertain (deviation above 110), and the site shows the likely range.
 - **Practice games** with hints, take-backs, an evaluation bar and a coach that stops you before a blunder and shows the threat. Start from the normal position or any position you set up.
 - **Game review** of every game: Stockfish analysis, accuracy, inaccuracies, mistakes and blunders, an evaluation graph, and a Retry button on each of your mistakes.
@@ -18,12 +18,25 @@ Live: https://muellercodes.github.io/chess-trainer/
 
 ## The bot ladder
 
-| Level | How it plays |
-| --- | --- |
-| 1 to 8 | Stockfish scores the candidate moves at a shallow depth (1 to 8) and the bot picks among them with a softmax over centipawns, plus a share of random moves. Lower levels have higher temperature and more random moves. |
-| 9 to 16 | Stockfish's own `UCI_LimitStrength` with `UCI_Elo` 1450 to 2500, searched to a fixed depth so strength does not depend on how fast the device is. |
+| Level | Rating | How it plays |
+| --- | --- | --- |
+| 1 | 220 | Shallow Stockfish search (depth 2), softmax pick at 450 cp temperature, 40% random moves |
+| 2 | 430 | depth 3, 280 cp, 24% random |
+| 3 | 500 | depth 4, 230 cp, 19% random |
+| 4 | 620 | depth 5, 165 cp, 13% random |
+| 5 | 850 | depth 6, 140 cp, 10% random |
+| 6 | 950 | depth 6, 115 cp, 8% random |
+| 7 | 1050 | depth 6, 95 cp, 6.5% random |
+| 8 | 1240 | depth 7, 80 cp, 5% random |
+| 9 to 16 | 1450 to 2500 | Stockfish `UCI_LimitStrength` with `UCI_Elo` = the rating, searched to a fixed depth so strength does not depend on device speed |
 
-Ratings for levels 9 to 16 are Stockfish's `UCI_Elo` values. Levels 1 to 8 are calibrated by self-play against each other and against levels 9 and 10 (`tools/calibrate`), so the whole ladder sits on one scale anchored to Stockfish's. That scale is not the same as chess.com or Lichess ratings, which differ from each other too. Treat comparisons with those sites as rough.
+Levels 1 to 8 scan every legal move with Stockfish (MultiPV) and pick with a softmax over the scores, so they make human-looking mistakes rather than only random ones.
+
+**Calibration.** Stockfish's strength setting stops at 1320, so levels 1 to 8 were measured: 760 bot-vs-bot games between neighbouring levels and against levels 9 to 12 (`tools/calibrate/run.mjs`, results in `tools/calibrate/results.jsonl`), fitted by maximum likelihood on the Elo model with the Stockfish levels as the anchor. Levels 9 to 12 came out within 20 points of their `UCI_Elo` values, so Stockfish's scale holds at these settings. Standard errors for levels 1 to 8 are about 35 to 50 points.
+
+That scale is Stockfish's (anchored to CCRL engine ratings). It is close to, but not the same as, chess.com or Lichess ratings, which also differ from each other. Use it to track your own progress.
+
+To recalibrate after changing a bot: `node tools/calibrate/run.mjs play 20 3` (appends games), then `node tools/calibrate/run.mjs fit`.
 
 ## Layout
 

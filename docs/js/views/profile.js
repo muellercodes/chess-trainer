@@ -73,6 +73,11 @@ export async function render(view) {
   }
   recCard.append(any ? t : h('p', { class: 'muted' }, 'No rated games yet.'));
 
+  view.append(h('div', { class: 'card', style: { marginTop: '14px' } },
+    h('h2', null, 'About these ratings'),
+    h('p', { class: 'muted small' }, 'Your game rating comes from rated games against the computer levels, using the Glicko-2 system. Every level has a fixed rating: levels 9 to 16 use Stockfish\'s own strength setting, and levels 1 to 8 were measured in hundreds of computer-vs-computer games against each other and against levels 9 to 12. A win against a level above you raises your rating more than a win against one below. The range shown is where your true rating most likely sits; it narrows as you play.'),
+    h('p', { class: 'muted small' }, 'The scale is close to, but not the same as, chess.com or Lichess ratings, which also differ from each other. Use it to track your own progress.')));
+
   if (!games.length) gamesCard.append(h('p', { class: 'muted' }, 'No games yet.'));
   else {
     const gt = h('table', { class: 'list' }, h('tr', null, h('th', null, 'Date'), h('th', null, 'Opponent'), h('th', null, 'Result'), h('th', null, 'Rating'), h('th', null, 'Accuracy')));

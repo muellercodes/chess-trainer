@@ -1,302 +1,760 @@
-{"a":"l1","b":"l2","aWhite":true,"scoreA":0.5,"ms":4643}
-{"a":"l3","b":"l4","aWhite":true,"scoreA":0,"ms":4999}
-{"a":"l2","b":"l3","aWhite":true,"scoreA":0.5,"ms":5665}
-{"a":"l5","b":"l6","aWhite":true,"scoreA":0,"ms":2406}
-{"a":"l6","b":"l7","aWhite":true,"scoreA":0,"ms":3923}
-{"a":"l4","b":"l5","aWhite":true,"scoreA":0,"ms":5231}
-{"a":"l2","b":"l4","aWhite":true,"scoreA":0.5,"ms":3868}
-{"a":"l7","b":"l8","aWhite":true,"scoreA":0,"ms":7411}
-{"a":"l1","b":"l3","aWhite":true,"scoreA":0.5,"ms":5985}
-{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":1728}
-{"a":"l3","b":"l5","aWhite":true,"scoreA":0.5,"ms":4845}
-{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":4518}
-{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":1239}
-{"a":"l6","b":"l8","aWhite":true,"scoreA":1,"ms":4842}
-{"a":"l8","b":"l9","aWhite":true,"scoreA":0,"ms":3704}
-{"a":"l7","b":"l9","aWhite":true,"scoreA":0.5,"ms":2049}
-{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":1113}
-{"a":"l9","b":"l10","aWhite":true,"scoreA":0.5,"ms":1241}
-{"a":"l10","b":"l11","aWhite":true,"scoreA":0,"ms":1208}
-{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":2304}
-{"a":"l1","b":"l2","aWhite":false,"scoreA":0.5,"ms":2684}
-{"a":"l2","b":"l3","aWhite":false,"scoreA":0.5,"ms":2658}
-{"a":"l3","b":"l4","aWhite":false,"scoreA":0,"ms":2696}
-{"a":"l4","b":"l5","aWhite":false,"scoreA":0.5,"ms":4761}
-{"a":"l5","b":"l6","aWhite":false,"scoreA":0,"ms":5315}
-{"a":"l6","b":"l7","aWhite":false,"scoreA":0,"ms":4457}
-{"a":"l2","b":"l4","aWhite":false,"scoreA":0,"ms":951}
-{"a":"l1","b":"l3","aWhite":false,"scoreA":0,"ms":1968}
-{"a":"l7","b":"l8","aWhite":false,"scoreA":0,"ms":3774}
-{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":1415}
-{"a":"l3","b":"l5","aWhite":false,"scoreA":0,"ms":3296}
-{"a":"l8","b":"l9","aWhite":false,"scoreA":0,"ms":1868}
-{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":2020}
-{"a":"l6","b":"l8","aWhite":false,"scoreA":0,"ms":6574}
-{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":765}
-{"a":"l5","b":"l7","aWhite":false,"scoreA":0.5,"ms":8212}
-{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":2512}
-{"a":"l9","b":"l10","aWhite":false,"scoreA":0,"ms":1202}
-{"a":"l10","b":"l11","aWhite":false,"scoreA":0,"ms":1177}
-{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":757}
-{"a":"l1","b":"l2","aWhite":true,"scoreA":0,"ms":1172}
-{"a":"l4","b":"l5","aWhite":true,"scoreA":0,"ms":2051}
-{"a":"l2","b":"l3","aWhite":true,"scoreA":0.5,"ms":3079}
-{"a":"l3","b":"l4","aWhite":true,"scoreA":0,"ms":3755}
-{"a":"l6","b":"l7","aWhite":true,"scoreA":0,"ms":3715}
-{"a":"l5","b":"l6","aWhite":true,"scoreA":0.5,"ms":5827}
-{"a":"l7","b":"l8","aWhite":true,"scoreA":1,"ms":5310}
-{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":2470}
-{"a":"l2","b":"l4","aWhite":true,"scoreA":0,"ms":1913}
-{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":4124}
-{"a":"l3","b":"l5","aWhite":true,"scoreA":0.5,"ms":5740}
-{"a":"l8","b":"l9","aWhite":true,"scoreA":0.5,"ms":5918}
-{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":8093}
-{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":865}
-{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":3242}
-{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":1868}
-{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":14320}
-{"a":"l10","b":"l11","aWhite":true,"scoreA":0,"ms":1298}
-{"a":"l1","b":"l2","aWhite":false,"scoreA":0,"ms":296}
-{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":845}
-{"a":"l9","b":"l10","aWhite":true,"scoreA":1,"ms":2266}
-{"a":"l2","b":"l3","aWhite":false,"scoreA":1,"ms":1149}
-{"a":"l3","b":"l4","aWhite":false,"scoreA":0,"ms":2404}
-{"a":"l4","b":"l5","aWhite":false,"scoreA":0.5,"ms":4859}
-{"a":"l6","b":"l7","aWhite":false,"scoreA":1,"ms":5150}
-{"a":"l1","b":"l3","aWhite":false,"scoreA":0,"ms":727}
-{"a":"l5","b":"l6","aWhite":false,"scoreA":0,"ms":9243}
-{"a":"l2","b":"l4","aWhite":false,"scoreA":0,"ms":3316}
-{"a":"l3","b":"l5","aWhite":false,"scoreA":0.5,"ms":3851}
-{"a":"l7","b":"l8","aWhite":false,"scoreA":0,"ms":9437}
-{"a":"l5","b":"l7","aWhite":false,"scoreA":0,"ms":3477}
-{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":7669}
-{"a":"l8","b":"l9","aWhite":false,"scoreA":0,"ms":1838}
-{"a":"l6","b":"l8","aWhite":false,"scoreA":0,"ms":5756}
-{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":923}
-{"a":"l9","b":"l10","aWhite":false,"scoreA":0,"ms":609}
-{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":2664}
-{"a":"l10","b":"l11","aWhite":false,"scoreA":0,"ms":655}
-{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":795}
-{"a":"l2","b":"l3","aWhite":true,"scoreA":1,"ms":1171}
-{"a":"l1","b":"l2","aWhite":true,"scoreA":1,"ms":1807}
-{"a":"l3","b":"l4","aWhite":true,"scoreA":0,"ms":714}
-{"a":"l8","b":"l10","aWhite":false,"scoreA":1,"ms":7268}
-{"a":"l5","b":"l6","aWhite":true,"scoreA":0,"ms":3617}
-{"a":"l4","b":"l5","aWhite":true,"scoreA":0.5,"ms":4251}
-{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":1125}
-{"a":"l2","b":"l4","aWhite":true,"scoreA":0,"ms":5333}
-{"a":"l6","b":"l7","aWhite":true,"scoreA":1,"ms":11499}
-{"a":"l7","b":"l8","aWhite":true,"scoreA":0,"ms":10707}
-{"a":"l3","b":"l5","aWhite":true,"scoreA":0,"ms":4208}
-{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":3089}
-{"a":"l8","b":"l9","aWhite":true,"scoreA":0,"ms":3238}
-{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":6951}
-{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":8062}
-{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":3628}
-{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":1373}
-{"a":"l7","b":"l9","aWhite":true,"scoreA":1,"ms":3313}
-{"a":"l9","b":"l10","aWhite":true,"scoreA":0,"ms":1790}
-{"a":"l10","b":"l11","aWhite":true,"scoreA":0,"ms":1774}
-{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":1850}
-{"a":"l1","b":"l2","aWhite":false,"scoreA":0,"ms":2167}
-{"a":"l2","b":"l3","aWhite":false,"scoreA":0.5,"ms":3753}
-{"a":"l4","b":"l5","aWhite":false,"scoreA":0,"ms":4030}
-{"a":"l3","b":"l4","aWhite":false,"scoreA":0.5,"ms":5800}
-{"a":"l5","b":"l6","aWhite":false,"scoreA":0,"ms":3881}
-{"a":"l6","b":"l7","aWhite":false,"scoreA":1,"ms":3836}
-{"a":"l1","b":"l3","aWhite":false,"scoreA":0.5,"ms":2470}
-{"a":"l2","b":"l4","aWhite":false,"scoreA":0,"ms":2876}
-{"a":"l3","b":"l5","aWhite":false,"scoreA":0.5,"ms":5432}
-{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":4637}
-{"a":"l5","b":"l7","aWhite":false,"scoreA":0,"ms":4006}
-{"a":"l7","b":"l8","aWhite":false,"scoreA":0,"ms":13483}
-{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":1204}
-{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":1180}
-{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":952}
-{"a":"l9","b":"l10","aWhite":false,"scoreA":1,"ms":1435}
-{"a":"l8","b":"l9","aWhite":false,"scoreA":1,"ms":6606}
-{"a":"l10","b":"l11","aWhite":false,"scoreA":1,"ms":2773}
-{"a":"l9","b":"l11","aWhite":false,"scoreA":0.5,"ms":2217}
-{"a":"l2","b":"l3","aWhite":true,"scoreA":0,"ms":1069}
-{"a":"l6","b":"l8","aWhite":false,"scoreA":0,"ms":12725}
-{"a":"l1","b":"l2","aWhite":true,"scoreA":0.5,"ms":2463}
-{"a":"l3","b":"l4","aWhite":true,"scoreA":1,"ms":1066}
-{"a":"l5","b":"l6","aWhite":true,"scoreA":1,"ms":2873}
-{"a":"l4","b":"l5","aWhite":true,"scoreA":0.5,"ms":7193}
-{"a":"l6","b":"l7","aWhite":true,"scoreA":0,"ms":7513}
-{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":2309}
-{"a":"l7","b":"l8","aWhite":true,"scoreA":0,"ms":8592}
-{"a":"l2","b":"l4","aWhite":true,"scoreA":0,"ms":3870}
-{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":4553}
-{"a":"l3","b":"l5","aWhite":true,"scoreA":0.5,"ms":9185}
-{"a":"l8","b":"l9","aWhite":true,"scoreA":0,"ms":4228}
-{"a":"l4","b":"l6","aWhite":true,"scoreA":0.5,"ms":12677}
-{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":9496}
-{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":2427}
-{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":1722}
-{"a":"l9","b":"l10","aWhite":true,"scoreA":0,"ms":1728}
-{"a":"l10","b":"l11","aWhite":true,"scoreA":0,"ms":1294}
-{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":1592}
-{"a":"l1","b":"l2","aWhite":false,"scoreA":0,"ms":1414}
-{"a":"l8","b":"l10","aWhite":true,"scoreA":1,"ms":11818}
-{"a":"l2","b":"l3","aWhite":false,"scoreA":0.5,"ms":4575}
-{"a":"l3","b":"l4","aWhite":false,"scoreA":0,"ms":5600}
-{"a":"l5","b":"l6","aWhite":false,"scoreA":1,"ms":4278}
-{"a":"l4","b":"l5","aWhite":false,"scoreA":0,"ms":7319}
-{"a":"l1","b":"l3","aWhite":false,"scoreA":0,"ms":579}
-{"a":"l7","b":"l8","aWhite":false,"scoreA":0,"ms":5147}
-{"a":"l6","b":"l7","aWhite":false,"scoreA":0,"ms":8019}
-{"a":"l3","b":"l5","aWhite":false,"scoreA":1,"ms":2606}
-{"a":"l2","b":"l4","aWhite":false,"scoreA":0.5,"ms":4756}
-{"a":"l5","b":"l7","aWhite":false,"scoreA":0,"ms":2399}
-{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":5789}
-{"a":"l8","b":"l9","aWhite":false,"scoreA":0,"ms":2375}
-{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":2615}
-{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":1223}
-{"a":"l9","b":"l10","aWhite":false,"scoreA":0,"ms":860}
-{"a":"l6","b":"l8","aWhite":false,"scoreA":0,"ms":6682}
-{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":1732}
-{"a":"l10","b":"l11","aWhite":false,"scoreA":0,"ms":998}
-{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":808}
-{"a":"l1","b":"l2","aWhite":true,"scoreA":0.5,"ms":2211}
-{"a":"l3","b":"l4","aWhite":true,"scoreA":0.5,"ms":4069}
-{"a":"l2","b":"l3","aWhite":true,"scoreA":0.5,"ms":4959}
-{"a":"l4","b":"l5","aWhite":true,"scoreA":1,"ms":2989}
-{"a":"l6","b":"l7","aWhite":true,"scoreA":0,"ms":5691}
-{"a":"l5","b":"l6","aWhite":true,"scoreA":0,"ms":7721}
-{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":2787}
-{"a":"l3","b":"l5","aWhite":true,"scoreA":0,"ms":1600}
-{"a":"l2","b":"l4","aWhite":true,"scoreA":0.5,"ms":4059}
-{"a":"l7","b":"l8","aWhite":true,"scoreA":0,"ms":11633}
-{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":4220}
-{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":6919}
-{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":5921}
-{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":2077}
-{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":3137}
-{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":1205}
-{"a":"l9","b":"l10","aWhite":true,"scoreA":1,"ms":1108}
-{"a":"l8","b":"l9","aWhite":true,"scoreA":1,"ms":6534}
-{"a":"l10","b":"l11","aWhite":true,"scoreA":0.5,"ms":1496}
-{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":1841}
-{"a":"l1","b":"l2","aWhite":false,"scoreA":0,"ms":1709}
-{"a":"l4","b":"l5","aWhite":false,"scoreA":0,"ms":1087}
-{"a":"l2","b":"l3","aWhite":false,"scoreA":0.5,"ms":4633}
-{"a":"l3","b":"l4","aWhite":false,"scoreA":0,"ms":4215}
-{"a":"l5","b":"l6","aWhite":false,"scoreA":0.5,"ms":5784}
-{"a":"l1","b":"l3","aWhite":false,"scoreA":0,"ms":478}
-{"a":"l6","b":"l7","aWhite":false,"scoreA":0,"ms":5930}
-{"a":"l2","b":"l4","aWhite":false,"scoreA":0.5,"ms":3575}
-{"a":"l7","b":"l8","aWhite":false,"scoreA":1,"ms":8831}
-{"a":"l3","b":"l5","aWhite":false,"scoreA":0,"ms":3869}
-{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":5351}
-{"a":"l5","b":"l7","aWhite":false,"scoreA":0.5,"ms":6183}
-{"a":"l8","b":"l9","aWhite":false,"scoreA":0,"ms":3551}
-{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":1342}
-{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":2198}
-{"a":"l6","b":"l8","aWhite":false,"scoreA":0,"ms":7974}
-{"a":"l10","b":"l11","aWhite":false,"scoreA":0,"ms":891}
-{"a":"l9","b":"l10","aWhite":false,"scoreA":0,"ms":2086}
-{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":1244}
-{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":2873}
-{"a":"l2","b":"l3","aWhite":true,"scoreA":0,"ms":1875}
-{"a":"l1","b":"l2","aWhite":true,"scoreA":0.5,"ms":2405}
-{"a":"l5","b":"l6","aWhite":true,"scoreA":0,"ms":3069}
-{"a":"l4","b":"l5","aWhite":true,"scoreA":0,"ms":4066}
-{"a":"l3","b":"l4","aWhite":true,"scoreA":0.5,"ms":5726}
-{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":233}
-{"a":"l7","b":"l8","aWhite":true,"scoreA":0,"ms":3732}
-{"a":"l2","b":"l4","aWhite":true,"scoreA":0.5,"ms":7708}
-{"a":"l6","b":"l7","aWhite":true,"scoreA":1,"ms":10061}
-{"a":"l3","b":"l5","aWhite":true,"scoreA":0.5,"ms":6104}
-{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":3014}
-{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":1873}
-{"a":"l8","b":"l9","aWhite":true,"scoreA":1,"ms":3431}
-{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":4014}
-{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":1320}
-{"a":"l7","b":"l9","aWhite":true,"scoreA":1,"ms":2696}
-{"a":"l9","b":"l10","aWhite":true,"scoreA":0,"ms":1349}
-{"a":"l10","b":"l11","aWhite":true,"scoreA":1,"ms":948}
-{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":1608}
-{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":10362}
-{"a":"l1","b":"l2","aWhite":false,"scoreA":0,"ms":3188}
-{"a":"l4","b":"l5","aWhite":false,"scoreA":1,"ms":2020}
-{"a":"l2","b":"l3","aWhite":false,"scoreA":0,"ms":4074}
-{"a":"l3","b":"l4","aWhite":false,"scoreA":0.5,"ms":4770}
-{"a":"l7","b":"l8","aWhite":false,"scoreA":1,"ms":2636}
-{"a":"l6","b":"l7","aWhite":false,"scoreA":1,"ms":5615}
-{"a":"l1","b":"l3","aWhite":false,"scoreA":0.5,"ms":2183}
-{"a":"l5","b":"l6","aWhite":false,"scoreA":0.5,"ms":7811}
-{"a":"l2","b":"l4","aWhite":false,"scoreA":0.5,"ms":3624}
-{"a":"l3","b":"l5","aWhite":false,"scoreA":0.5,"ms":4293}
-{"a":"l5","b":"l7","aWhite":false,"scoreA":0.5,"ms":3119}
-{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":5078}
-{"a":"l8","b":"l9","aWhite":false,"scoreA":0,"ms":2536}
-{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":3158}
-{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":2063}
-{"a":"l6","b":"l8","aWhite":false,"scoreA":0,"ms":6981}
-{"a":"l9","b":"l10","aWhite":false,"scoreA":0,"ms":928}
-{"a":"l10","b":"l11","aWhite":false,"scoreA":1,"ms":1123}
-{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":2889}
-{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":937}
-{"a":"l1","b":"l2","aWhite":true,"scoreA":0,"ms":2259}
-{"a":"l3","b":"l4","aWhite":true,"scoreA":0,"ms":2550}
-{"a":"l2","b":"l3","aWhite":true,"scoreA":0.5,"ms":3917}
-{"a":"l4","b":"l5","aWhite":true,"scoreA":0.5,"ms":3450}
-{"a":"l6","b":"l7","aWhite":true,"scoreA":1,"ms":4828}
-{"a":"l5","b":"l6","aWhite":true,"scoreA":0,"ms":6327}
-{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":984}
-{"a":"l7","b":"l8","aWhite":true,"scoreA":1,"ms":8532}
-{"a":"l2","b":"l4","aWhite":true,"scoreA":0.5,"ms":5968}
-{"a":"l3","b":"l5","aWhite":true,"scoreA":0,"ms":7678}
-{"a":"l4","b":"l6","aWhite":true,"scoreA":1,"ms":4561}
-{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":6321}
-{"a":"l8","b":"l9","aWhite":true,"scoreA":0,"ms":5855}
-{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":3814}
-{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":1509}
-{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":8784}
-{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":1501}
-{"a":"l9","b":"l10","aWhite":true,"scoreA":0,"ms":1324}
-{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":1097}
-{"a":"l10","b":"l11","aWhite":true,"scoreA":1,"ms":1910}
-{"a":"l3","b":"l4","aWhite":false,"scoreA":1,"ms":2888}
-{"a":"l1","b":"l2","aWhite":false,"scoreA":0.5,"ms":3957}
-{"a":"l2","b":"l3","aWhite":false,"scoreA":0.5,"ms":3735}
-{"a":"l4","b":"l5","aWhite":false,"scoreA":0,"ms":2937}
-{"a":"l5","b":"l6","aWhite":false,"scoreA":0.5,"ms":7310}
-{"a":"l7","b":"l8","aWhite":false,"scoreA":1,"ms":8202}
-{"a":"l1","b":"l3","aWhite":false,"scoreA":0,"ms":4272}
-{"a":"l6","b":"l7","aWhite":false,"scoreA":0,"ms":12160}
-{"a":"l3","b":"l5","aWhite":false,"scoreA":1,"ms":2775}
-{"a":"l2","b":"l4","aWhite":false,"scoreA":0,"ms":3950}
-{"a":"l5","b":"l7","aWhite":false,"scoreA":0,"ms":4735}
-{"a":"l6","b":"l8","aWhite":false,"scoreA":0,"ms":5808}
-{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":8793}
-{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":859}
-{"a":"l8","b":"l9","aWhite":false,"scoreA":0,"ms":2967}
-{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":1631}
-{"a":"l9","b":"l10","aWhite":false,"scoreA":0,"ms":1465}
-{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":1884}
-{"a":"l10","b":"l11","aWhite":false,"scoreA":0,"ms":3295}
-{"a":"l9","b":"l11","aWhite":false,"scoreA":1,"ms":2532}
-{"a":"l1","b":"l2","aWhite":true,"scoreA":0.5,"ms":3532}
-{"a":"l2","b":"l3","aWhite":true,"scoreA":0,"ms":2466}
-{"a":"l3","b":"l4","aWhite":true,"scoreA":0,"ms":4949}
-{"a":"l4","b":"l5","aWhite":true,"scoreA":0.5,"ms":4964}
-{"a":"l5","b":"l6","aWhite":true,"scoreA":0,"ms":4989}
-{"a":"l1","b":"l3","aWhite":true,"scoreA":0.5,"ms":2822}
-{"a":"l6","b":"l7","aWhite":true,"scoreA":1,"ms":5410}
-{"a":"l2","b":"l4","aWhite":true,"scoreA":0,"ms":2030}
-{"a":"l3","b":"l5","aWhite":true,"scoreA":0,"ms":4222}
-{"a":"l7","b":"l8","aWhite":true,"scoreA":0,"ms":10062}
-{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":5642}
-{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":3527}
-{"a":"l8","b":"l9","aWhite":true,"scoreA":0,"ms":1528}
-{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":2121}
-{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":3425}
-{"a":"l9","b":"l10","aWhite":true,"scoreA":0,"ms":745}
-{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":1723}
-{"a":"l10","b":"l11","aWhite":true,"scoreA":0,"ms":1277}
-{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":1599}
-{"a":"l1","b":"l2","aWhite":false,"scoreA":0.5,"ms":3079}
-{"a":"l2","b":"l3","aWhite":false,"scoreA":0.5,"ms":2295}
-{"a":"l3","b":"l4","aWhite":false,"scoreA":0,"ms":1484}
+{"a": "l1", "b": "l2", "aWhite": true, "scoreA": 0.5, "ms": 4643}
+{"a": "l2", "b": "l3", "aWhite": true, "scoreA": 0.5, "ms": 5665}
+{"a": "l4", "b": "l6", "aWhite": true, "scoreA": 0, "ms": 2406}
+{"a": "l6", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 3923}
+{"a": "l7", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 7411}
+{"a": "l1", "b": "l3", "aWhite": true, "scoreA": 0.5, "ms": 5985}
+{"a": "l4", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 1728}
+{"a": "l3", "b": "l4", "aWhite": true, "scoreA": 0.5, "ms": 4845}
+{"a": "l8", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 1239}
+{"a": "l6", "b": "l8", "aWhite": true, "scoreA": 1, "ms": 4842}
+{"a": "l8", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 3704}
+{"a": "l7", "b": "l9", "aWhite": true, "scoreA": 0.5, "ms": 2049}
+{"a": "l6", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 1113}
+{"a": "l9", "b": "l10", "aWhite": true, "scoreA": 0.5, "ms": 1241}
+{"a": "l10", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 1208}
+{"a": "l9", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 2304}
+{"a": "l1", "b": "l2", "aWhite": false, "scoreA": 0.5, "ms": 2684}
+{"a": "l2", "b": "l3", "aWhite": false, "scoreA": 0.5, "ms": 2658}
+{"a": "l4", "b": "l6", "aWhite": false, "scoreA": 0, "ms": 5315}
+{"a": "l6", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 4457}
+{"a": "l1", "b": "l3", "aWhite": false, "scoreA": 0, "ms": 1968}
+{"a": "l7", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 3774}
+{"a": "l3", "b": "l4", "aWhite": false, "scoreA": 0, "ms": 3296}
+{"a": "l8", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 1868}
+{"a": "l8", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 2020}
+{"a": "l6", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 6574}
+{"a": "l6", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 765}
+{"a": "l4", "b": "l7", "aWhite": false, "scoreA": 0.5, "ms": 8212}
+{"a": "l7", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 2512}
+{"a": "l9", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 1202}
+{"a": "l10", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 1177}
+{"a": "l9", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 757}
+{"a": "l1", "b": "l2", "aWhite": true, "scoreA": 0, "ms": 1172}
+{"a": "l2", "b": "l3", "aWhite": true, "scoreA": 0.5, "ms": 3079}
+{"a": "l6", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 3715}
+{"a": "l4", "b": "l6", "aWhite": true, "scoreA": 0.5, "ms": 5827}
+{"a": "l7", "b": "l8", "aWhite": true, "scoreA": 1, "ms": 5310}
+{"a": "l1", "b": "l3", "aWhite": true, "scoreA": 0, "ms": 2470}
+{"a": "l3", "b": "l4", "aWhite": true, "scoreA": 0.5, "ms": 5740}
+{"a": "l8", "b": "l9", "aWhite": true, "scoreA": 0.5, "ms": 5918}
+{"a": "l6", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 8093}
+{"a": "l7", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 865}
+{"a": "l8", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 3242}
+{"a": "l6", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 1868}
+{"a": "l4", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 14320}
+{"a": "l10", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 1298}
+{"a": "l1", "b": "l2", "aWhite": false, "scoreA": 0, "ms": 296}
+{"a": "l9", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 845}
+{"a": "l9", "b": "l10", "aWhite": true, "scoreA": 1, "ms": 2266}
+{"a": "l2", "b": "l3", "aWhite": false, "scoreA": 1, "ms": 1149}
+{"a": "l6", "b": "l7", "aWhite": false, "scoreA": 1, "ms": 5150}
+{"a": "l1", "b": "l3", "aWhite": false, "scoreA": 0, "ms": 727}
+{"a": "l4", "b": "l6", "aWhite": false, "scoreA": 0, "ms": 9243}
+{"a": "l3", "b": "l4", "aWhite": false, "scoreA": 0.5, "ms": 3851}
+{"a": "l7", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 9437}
+{"a": "l4", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 3477}
+{"a": "l8", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 1838}
+{"a": "l6", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 5756}
+{"a": "l6", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 923}
+{"a": "l9", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 609}
+{"a": "l7", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 2664}
+{"a": "l10", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 655}
+{"a": "l9", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 795}
+{"a": "l2", "b": "l3", "aWhite": true, "scoreA": 1, "ms": 1171}
+{"a": "l1", "b": "l2", "aWhite": true, "scoreA": 1, "ms": 1807}
+{"a": "l8", "b": "l10", "aWhite": false, "scoreA": 1, "ms": 7268}
+{"a": "l4", "b": "l6", "aWhite": true, "scoreA": 0, "ms": 3617}
+{"a": "l1", "b": "l3", "aWhite": true, "scoreA": 0, "ms": 1125}
+{"a": "l6", "b": "l7", "aWhite": true, "scoreA": 1, "ms": 11499}
+{"a": "l7", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 10707}
+{"a": "l3", "b": "l4", "aWhite": true, "scoreA": 0, "ms": 4208}
+{"a": "l8", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 3238}
+{"a": "l4", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 6951}
+{"a": "l6", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 8062}
+{"a": "l8", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 3628}
+{"a": "l6", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 1373}
+{"a": "l7", "b": "l9", "aWhite": true, "scoreA": 1, "ms": 3313}
+{"a": "l9", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 1790}
+{"a": "l10", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 1774}
+{"a": "l9", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 1850}
+{"a": "l1", "b": "l2", "aWhite": false, "scoreA": 0, "ms": 2167}
+{"a": "l2", "b": "l3", "aWhite": false, "scoreA": 0.5, "ms": 3753}
+{"a": "l4", "b": "l6", "aWhite": false, "scoreA": 0, "ms": 3881}
+{"a": "l6", "b": "l7", "aWhite": false, "scoreA": 1, "ms": 3836}
+{"a": "l1", "b": "l3", "aWhite": false, "scoreA": 0.5, "ms": 2470}
+{"a": "l3", "b": "l4", "aWhite": false, "scoreA": 0.5, "ms": 5432}
+{"a": "l4", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 4006}
+{"a": "l7", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 13483}
+{"a": "l8", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 1204}
+{"a": "l7", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 1180}
+{"a": "l6", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 952}
+{"a": "l9", "b": "l10", "aWhite": false, "scoreA": 1, "ms": 1435}
+{"a": "l8", "b": "l9", "aWhite": false, "scoreA": 1, "ms": 6606}
+{"a": "l10", "b": "l11", "aWhite": false, "scoreA": 1, "ms": 2773}
+{"a": "l9", "b": "l11", "aWhite": false, "scoreA": 0.5, "ms": 2217}
+{"a": "l2", "b": "l3", "aWhite": true, "scoreA": 0, "ms": 1069}
+{"a": "l6", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 12725}
+{"a": "l1", "b": "l2", "aWhite": true, "scoreA": 0.5, "ms": 2463}
+{"a": "l4", "b": "l6", "aWhite": true, "scoreA": 1, "ms": 2873}
+{"a": "l6", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 7513}
+{"a": "l1", "b": "l3", "aWhite": true, "scoreA": 0, "ms": 2309}
+{"a": "l7", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 8592}
+{"a": "l4", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 4553}
+{"a": "l3", "b": "l4", "aWhite": true, "scoreA": 0.5, "ms": 9185}
+{"a": "l8", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 4228}
+{"a": "l6", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 9496}
+{"a": "l7", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 2427}
+{"a": "l6", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 1722}
+{"a": "l9", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 1728}
+{"a": "l10", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 1294}
+{"a": "l9", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 1592}
+{"a": "l1", "b": "l2", "aWhite": false, "scoreA": 0, "ms": 1414}
+{"a": "l8", "b": "l10", "aWhite": true, "scoreA": 1, "ms": 11818}
+{"a": "l2", "b": "l3", "aWhite": false, "scoreA": 0.5, "ms": 4575}
+{"a": "l4", "b": "l6", "aWhite": false, "scoreA": 1, "ms": 4278}
+{"a": "l1", "b": "l3", "aWhite": false, "scoreA": 0, "ms": 579}
+{"a": "l7", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 5147}
+{"a": "l6", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 8019}
+{"a": "l3", "b": "l4", "aWhite": false, "scoreA": 1, "ms": 2606}
+{"a": "l4", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 2399}
+{"a": "l8", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 2375}
+{"a": "l8", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 2615}
+{"a": "l7", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 1223}
+{"a": "l9", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 860}
+{"a": "l6", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 6682}
+{"a": "l6", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 1732}
+{"a": "l10", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 998}
+{"a": "l9", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 808}
+{"a": "l1", "b": "l2", "aWhite": true, "scoreA": 0.5, "ms": 2211}
+{"a": "l2", "b": "l3", "aWhite": true, "scoreA": 0.5, "ms": 4959}
+{"a": "l6", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 5691}
+{"a": "l4", "b": "l6", "aWhite": true, "scoreA": 0, "ms": 7721}
+{"a": "l1", "b": "l3", "aWhite": true, "scoreA": 0, "ms": 2787}
+{"a": "l3", "b": "l4", "aWhite": true, "scoreA": 0, "ms": 1600}
+{"a": "l7", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 11633}
+{"a": "l4", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 4220}
+{"a": "l6", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 5921}
+{"a": "l7", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 2077}
+{"a": "l8", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 3137}
+{"a": "l6", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 1205}
+{"a": "l9", "b": "l10", "aWhite": true, "scoreA": 1, "ms": 1108}
+{"a": "l8", "b": "l9", "aWhite": true, "scoreA": 1, "ms": 6534}
+{"a": "l10", "b": "l11", "aWhite": true, "scoreA": 0.5, "ms": 1496}
+{"a": "l9", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 1841}
+{"a": "l1", "b": "l2", "aWhite": false, "scoreA": 0, "ms": 1709}
+{"a": "l2", "b": "l3", "aWhite": false, "scoreA": 0.5, "ms": 4633}
+{"a": "l4", "b": "l6", "aWhite": false, "scoreA": 0.5, "ms": 5784}
+{"a": "l1", "b": "l3", "aWhite": false, "scoreA": 0, "ms": 478}
+{"a": "l6", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 5930}
+{"a": "l7", "b": "l8", "aWhite": false, "scoreA": 1, "ms": 8831}
+{"a": "l3", "b": "l4", "aWhite": false, "scoreA": 0, "ms": 3869}
+{"a": "l4", "b": "l7", "aWhite": false, "scoreA": 0.5, "ms": 6183}
+{"a": "l8", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 3551}
+{"a": "l7", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 1342}
+{"a": "l8", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 2198}
+{"a": "l6", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 7974}
+{"a": "l10", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 891}
+{"a": "l9", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 2086}
+{"a": "l9", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 1244}
+{"a": "l6", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 2873}
+{"a": "l2", "b": "l3", "aWhite": true, "scoreA": 0, "ms": 1875}
+{"a": "l1", "b": "l2", "aWhite": true, "scoreA": 0.5, "ms": 2405}
+{"a": "l4", "b": "l6", "aWhite": true, "scoreA": 0, "ms": 3069}
+{"a": "l1", "b": "l3", "aWhite": true, "scoreA": 0, "ms": 233}
+{"a": "l7", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 3732}
+{"a": "l6", "b": "l7", "aWhite": true, "scoreA": 1, "ms": 10061}
+{"a": "l3", "b": "l4", "aWhite": true, "scoreA": 0.5, "ms": 6104}
+{"a": "l4", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 1873}
+{"a": "l8", "b": "l9", "aWhite": true, "scoreA": 1, "ms": 3431}
+{"a": "l8", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 4014}
+{"a": "l6", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 1320}
+{"a": "l7", "b": "l9", "aWhite": true, "scoreA": 1, "ms": 2696}
+{"a": "l9", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 1349}
+{"a": "l10", "b": "l11", "aWhite": true, "scoreA": 1, "ms": 948}
+{"a": "l9", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 1608}
+{"a": "l6", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 10362}
+{"a": "l1", "b": "l2", "aWhite": false, "scoreA": 0, "ms": 3188}
+{"a": "l2", "b": "l3", "aWhite": false, "scoreA": 0, "ms": 4074}
+{"a": "l7", "b": "l8", "aWhite": false, "scoreA": 1, "ms": 2636}
+{"a": "l6", "b": "l7", "aWhite": false, "scoreA": 1, "ms": 5615}
+{"a": "l1", "b": "l3", "aWhite": false, "scoreA": 0.5, "ms": 2183}
+{"a": "l4", "b": "l6", "aWhite": false, "scoreA": 0.5, "ms": 7811}
+{"a": "l3", "b": "l4", "aWhite": false, "scoreA": 0.5, "ms": 4293}
+{"a": "l4", "b": "l7", "aWhite": false, "scoreA": 0.5, "ms": 3119}
+{"a": "l8", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 2536}
+{"a": "l8", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 3158}
+{"a": "l7", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 2063}
+{"a": "l6", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 6981}
+{"a": "l9", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 928}
+{"a": "l10", "b": "l11", "aWhite": false, "scoreA": 1, "ms": 1123}
+{"a": "l6", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 2889}
+{"a": "l9", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 937}
+{"a": "l1", "b": "l2", "aWhite": true, "scoreA": 0, "ms": 2259}
+{"a": "l2", "b": "l3", "aWhite": true, "scoreA": 0.5, "ms": 3917}
+{"a": "l6", "b": "l7", "aWhite": true, "scoreA": 1, "ms": 4828}
+{"a": "l4", "b": "l6", "aWhite": true, "scoreA": 0, "ms": 6327}
+{"a": "l1", "b": "l3", "aWhite": true, "scoreA": 0, "ms": 984}
+{"a": "l7", "b": "l8", "aWhite": true, "scoreA": 1, "ms": 8532}
+{"a": "l3", "b": "l4", "aWhite": true, "scoreA": 0, "ms": 7678}
+{"a": "l4", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 6321}
+{"a": "l8", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 5855}
+{"a": "l8", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 3814}
+{"a": "l7", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 1509}
+{"a": "l6", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 8784}
+{"a": "l6", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 1501}
+{"a": "l9", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 1324}
+{"a": "l9", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 1097}
+{"a": "l10", "b": "l11", "aWhite": true, "scoreA": 1, "ms": 1910}
+{"a": "l1", "b": "l2", "aWhite": false, "scoreA": 0.5, "ms": 3957}
+{"a": "l2", "b": "l3", "aWhite": false, "scoreA": 0.5, "ms": 3735}
+{"a": "l4", "b": "l6", "aWhite": false, "scoreA": 0.5, "ms": 7310}
+{"a": "l7", "b": "l8", "aWhite": false, "scoreA": 1, "ms": 8202}
+{"a": "l1", "b": "l3", "aWhite": false, "scoreA": 0, "ms": 4272}
+{"a": "l6", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 12160}
+{"a": "l3", "b": "l4", "aWhite": false, "scoreA": 1, "ms": 2775}
+{"a": "l4", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 4735}
+{"a": "l6", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 5808}
+{"a": "l7", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 859}
+{"a": "l8", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 2967}
+{"a": "l8", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 1631}
+{"a": "l9", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 1465}
+{"a": "l6", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 1884}
+{"a": "l10", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 3295}
+{"a": "l9", "b": "l11", "aWhite": false, "scoreA": 1, "ms": 2532}
+{"a": "l1", "b": "l2", "aWhite": true, "scoreA": 0.5, "ms": 3532}
+{"a": "l2", "b": "l3", "aWhite": true, "scoreA": 0, "ms": 2466}
+{"a": "l4", "b": "l6", "aWhite": true, "scoreA": 0, "ms": 4989}
+{"a": "l1", "b": "l3", "aWhite": true, "scoreA": 0.5, "ms": 2822}
+{"a": "l6", "b": "l7", "aWhite": true, "scoreA": 1, "ms": 5410}
+{"a": "l3", "b": "l4", "aWhite": true, "scoreA": 0, "ms": 4222}
+{"a": "l7", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 10062}
+{"a": "l4", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 3527}
+{"a": "l8", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 1528}
+{"a": "l7", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 2121}
+{"a": "l8", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 3425}
+{"a": "l9", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 745}
+{"a": "l6", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 1723}
+{"a": "l10", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 1277}
+{"a": "l9", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 1599}
+{"a": "l1", "b": "l2", "aWhite": false, "scoreA": 0.5, "ms": 3079}
+{"a": "l2", "b": "l3", "aWhite": false, "scoreA": 0.5, "ms": 2295}
+{"a": "l4", "b": "l6", "aWhite": false, "scoreA": 0, "ms": 4262}
+{"a": "l6", "b": "l8", "aWhite": true, "scoreA": 0.5, "ms": 16594}
+{"a": "l6", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 4758}
+{"a": "l1", "b": "l3", "aWhite": false, "scoreA": 0, "ms": 4959}
+{"a": "l7", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 7891}
+{"a": "l3", "b": "l4", "aWhite": false, "scoreA": 0.5, "ms": 3842}
+{"a": "l6", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 2387}
+{"a": "l4", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 4112}
+{"a": "l8", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 2039}
+{"a": "l7", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 1046}
+{"a": "l8", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 3427}
+{"a": "l9", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 985}
+{"a": "l9", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 1451}
+{"a": "l10", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 1740}
+{"a": "l1", "b": "l2", "aWhite": true, "scoreA": 0, "ms": 1542}
+{"a": "l2", "b": "l3", "aWhite": true, "scoreA": 0, "ms": 1978}
+{"a": "l6", "b": "l9", "aWhite": false, "scoreA": 0.5, "ms": 10020}
+{"a": "l4", "b": "l6", "aWhite": true, "scoreA": 0, "ms": 2391}
+{"a": "l1", "b": "l3", "aWhite": true, "scoreA": 0, "ms": 1181}
+{"a": "l6", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 2360}
+{"a": "l3", "b": "l4", "aWhite": true, "scoreA": 1, "ms": 1366}
+{"a": "l7", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 6849}
+{"a": "l4", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 3400}
+{"a": "l8", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 2433}
+{"a": "l6", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 4230}
+{"a": "l8", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 4680}
+{"a": "l6", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 2129}
+{"a": "l9", "b": "l10", "aWhite": true, "scoreA": 1, "ms": 497}
+{"a": "l7", "b": "l9", "aWhite": true, "scoreA": 1, "ms": 3456}
+{"a": "l9", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 905}
+{"a": "l10", "b": "l11", "aWhite": true, "scoreA": 1, "ms": 1355}
+{"a": "l1", "b": "l2", "aWhite": false, "scoreA": 0, "ms": 1677}
+{"a": "l2", "b": "l3", "aWhite": false, "scoreA": 0.5, "ms": 4933}
+{"a": "l4", "b": "l6", "aWhite": false, "scoreA": 0, "ms": 3108}
+{"a": "l6", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 4617}
+{"a": "l1", "b": "l3", "aWhite": false, "scoreA": 0.5, "ms": 3661}
+{"a": "l3", "b": "l4", "aWhite": false, "scoreA": 1, "ms": 1588}
+{"a": "l7", "b": "l8", "aWhite": false, "scoreA": 1, "ms": 8402}
+{"a": "l4", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 4067}
+{"a": "l8", "b": "l9", "aWhite": false, "scoreA": 1, "ms": 4954}
+{"a": "l7", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 1108}
+{"a": "l6", "b": "l8", "aWhite": false, "scoreA": 0.5, "ms": 7701}
+{"a": "l6", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 1289}
+{"a": "l8", "b": "l10", "aWhite": false, "scoreA": 1, "ms": 4520}
+{"a": "l10", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 1135}
+{"a": "l9", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 1446}
+{"a": "l9", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 577}
+{"a": "l1", "b": "l2", "aWhite": true, "scoreA": 0, "ms": 2061}
+{"a": "l2", "b": "l3", "aWhite": true, "scoreA": 0.5, "ms": 4060}
+{"a": "l6", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 1094}
+{"a": "l4", "b": "l6", "aWhite": true, "scoreA": 0, "ms": 4068}
+{"a": "l7", "b": "l8", "aWhite": true, "scoreA": 0, "ms": 4208}
+{"a": "l1", "b": "l3", "aWhite": true, "scoreA": 0, "ms": 2367}
+{"a": "l3", "b": "l4", "aWhite": true, "scoreA": 0, "ms": 3868}
+{"a": "l8", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 1458}
+{"a": "l8", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 3019}
+{"a": "l4", "b": "l7", "aWhite": true, "scoreA": 0, "ms": 7164}
+{"a": "l6", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 1291}
+{"a": "l7", "b": "l9", "aWhite": true, "scoreA": 0, "ms": 1826}
+{"a": "l6", "b": "l8", "aWhite": true, "scoreA": 0.5, "ms": 8339}
+{"a": "l9", "b": "l11", "aWhite": true, "scoreA": 0, "ms": 860}
+{"a": "l9", "b": "l10", "aWhite": true, "scoreA": 0, "ms": 1501}
+{"a": "l10", "b": "l11", "aWhite": true, "scoreA": 1, "ms": 1505}
+{"a": "l1", "b": "l2", "aWhite": false, "scoreA": 0, "ms": 1046}
+{"a": "l2", "b": "l3", "aWhite": false, "scoreA": 0.5, "ms": 3392}
+{"a": "l4", "b": "l6", "aWhite": false, "scoreA": 0, "ms": 3050}
+{"a": "l1", "b": "l3", "aWhite": false, "scoreA": 1, "ms": 1289}
+{"a": "l6", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 5268}
+{"a": "l7", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 6128}
+{"a": "l3", "b": "l4", "aWhite": false, "scoreA": 0.5, "ms": 5120}
+{"a": "l4", "b": "l7", "aWhite": false, "scoreA": 0, "ms": 3729}
+{"a": "l8", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 2553}
+{"a": "l8", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 2125}
+{"a": "l7", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 1296}
+{"a": "l6", "b": "l9", "aWhite": false, "scoreA": 0, "ms": 1191}
+{"a": "l9", "b": "l10", "aWhite": false, "scoreA": 0, "ms": 799}
+{"a": "l10", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 552}
+{"a": "l9", "b": "l11", "aWhite": false, "scoreA": 0, "ms": 781}
+{"a": "l6", "b": "l8", "aWhite": false, "scoreA": 0, "ms": 6798}
+{"a":"l1","b":"l2","aWhite":true,"scoreA":0,"ms":1033}
+{"a":"l3","b":"l4","aWhite":true,"scoreA":0,"ms":4825}
+{"a":"l2","b":"l3","aWhite":true,"scoreA":0,"ms":5907}
+{"a":"l4","b":"l5","aWhite":true,"scoreA":0,"ms":6529}
+{"a":"l6","b":"l7","aWhite":true,"scoreA":1,"ms":3418}
+{"a":"l5","b":"l6","aWhite":true,"scoreA":0,"ms":5610}
+{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":2005}
+{"a":"l3","b":"l5","aWhite":true,"scoreA":0,"ms":345}
+{"a":"l2","b":"l4","aWhite":true,"scoreA":0.5,"ms":2923}
+{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":3391}
+{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":5858}
+{"a":"l8","b":"l9","aWhite":true,"scoreA":0,"ms":2259}
+{"a":"l7","b":"l8","aWhite":true,"scoreA":0,"ms":14540}
+{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":7163}
+{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":2497}
+{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":1840}
+{"a":"l9","b":"l10","aWhite":true,"scoreA":0,"ms":910}
+{"a":"l10","b":"l11","aWhite":true,"scoreA":0,"ms":1697}
+{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":1413}
+{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":4401}
+{"a":"l1","b":"l2","aWhite":false,"scoreA":0,"ms":1394}
+{"a":"l10","b":"l12","aWhite":true,"scoreA":0,"ms":1793}
+{"a":"l11","b":"l12","aWhite":true,"scoreA":1,"ms":2616}
+{"a":"l2","b":"l3","aWhite":false,"scoreA":0.5,"ms":4496}
+{"a":"l4","b":"l5","aWhite":false,"scoreA":0,"ms":4553}
+{"a":"l3","b":"l4","aWhite":false,"scoreA":0.5,"ms":5021}
+{"a":"l7","b":"l8","aWhite":false,"scoreA":0,"ms":7338}
+{"a":"l6","b":"l7","aWhite":false,"scoreA":0,"ms":8667}
+{"a":"l5","b":"l6","aWhite":false,"scoreA":0.5,"ms":9297}
+{"a":"l1","b":"l3","aWhite":false,"scoreA":0.5,"ms":4440}
+{"a":"l2","b":"l4","aWhite":false,"scoreA":0,"ms":3821}
+{"a":"l3","b":"l5","aWhite":false,"scoreA":0,"ms":6641}
+{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":3698}
+{"a":"l5","b":"l7","aWhite":false,"scoreA":0,"ms":5466}
+{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":2077}
+{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":1568}
+{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":1283}
+{"a":"l6","b":"l8","aWhite":false,"scoreA":0,"ms":7719}
+{"a":"l9","b":"l10","aWhite":false,"scoreA":0,"ms":929}
+{"a":"l10","b":"l11","aWhite":false,"scoreA":0,"ms":2086}
+{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":1419}
+{"a":"l10","b":"l12","aWhite":false,"scoreA":0,"ms":1726}
+{"a":"l8","b":"l9","aWhite":false,"scoreA":1,"ms":11751}
+{"a":"l11","b":"l12","aWhite":false,"scoreA":1,"ms":2931}
+{"a":"l1","b":"l2","aWhite":true,"scoreA":0.5,"ms":2596}
+{"a":"l2","b":"l3","aWhite":true,"scoreA":0.5,"ms":3938}
+{"a":"l3","b":"l4","aWhite":true,"scoreA":0,"ms":5315}
+{"a":"l4","b":"l5","aWhite":true,"scoreA":0,"ms":5543}
+{"a":"l5","b":"l6","aWhite":true,"scoreA":0,"ms":4702}
+{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":2786}
+{"a":"l6","b":"l7","aWhite":true,"scoreA":0,"ms":6290}
+{"a":"l2","b":"l4","aWhite":true,"scoreA":0,"ms":5570}
+{"a":"l7","b":"l8","aWhite":true,"scoreA":0.5,"ms":9624}
+{"a":"l3","b":"l5","aWhite":true,"scoreA":0.5,"ms":7235}
+{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":5833}
+{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":6389}
+{"a":"l8","b":"l9","aWhite":true,"scoreA":1,"ms":2773}
+{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":3316}
+{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":913}
+{"a":"l9","b":"l10","aWhite":true,"scoreA":1,"ms":1106}
+{"a":"l10","b":"l11","aWhite":true,"scoreA":0,"ms":1246}
+{"a":"l9","b":"l11","aWhite":true,"scoreA":1,"ms":667}
+{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":3292}
+{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":10599}
+{"a":"l10","b":"l12","aWhite":true,"scoreA":1,"ms":2143}
+{"a":"l11","b":"l12","aWhite":true,"scoreA":0,"ms":2772}
+{"a":"l1","b":"l2","aWhite":false,"scoreA":0.5,"ms":2539}
+{"a":"l3","b":"l4","aWhite":false,"scoreA":0,"ms":1807}
+{"a":"l2","b":"l3","aWhite":false,"scoreA":0,"ms":2312}
+{"a":"l4","b":"l5","aWhite":false,"scoreA":0,"ms":2935}
+{"a":"l7","b":"l8","aWhite":false,"scoreA":0,"ms":4103}
+{"a":"l6","b":"l7","aWhite":false,"scoreA":0.5,"ms":7280}
+{"a":"l1","b":"l3","aWhite":false,"scoreA":0,"ms":2092}
+{"a":"l5","b":"l6","aWhite":false,"scoreA":0.5,"ms":10136}
+{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":920}
+{"a":"l2","b":"l4","aWhite":false,"scoreA":0,"ms":5451}
+{"a":"l3","b":"l5","aWhite":false,"scoreA":0,"ms":6013}
+{"a":"l8","b":"l9","aWhite":false,"scoreA":1,"ms":2071}
+{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":2183}
+{"a":"l6","b":"l8","aWhite":false,"scoreA":0,"ms":5352}
+{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":1155}
+{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":1073}
+{"a":"l9","b":"l10","aWhite":false,"scoreA":0,"ms":963}
+{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":785}
+{"a":"l10","b":"l11","aWhite":false,"scoreA":0.5,"ms":2108}
+{"a":"l11","b":"l12","aWhite":false,"scoreA":0,"ms":2023}
+{"a":"l10","b":"l12","aWhite":false,"scoreA":0,"ms":2356}
+{"a":"l5","b":"l7","aWhite":false,"scoreA":0,"ms":13302}
+{"a":"l1","b":"l2","aWhite":true,"scoreA":0.5,"ms":1818}
+{"a":"l2","b":"l3","aWhite":true,"scoreA":0.5,"ms":2515}
+{"a":"l3","b":"l4","aWhite":true,"scoreA":0,"ms":2721}
+{"a":"l5","b":"l6","aWhite":true,"scoreA":0,"ms":4344}
+{"a":"l6","b":"l7","aWhite":true,"scoreA":1,"ms":3752}
+{"a":"l4","b":"l5","aWhite":true,"scoreA":0,"ms":6749}
+{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":1494}
+{"a":"l2","b":"l4","aWhite":true,"scoreA":0,"ms":4426}
+{"a":"l7","b":"l8","aWhite":true,"scoreA":0,"ms":5839}
+{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":3554}
+{"a":"l3","b":"l5","aWhite":true,"scoreA":0.5,"ms":8419}
+{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":5361}
+{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":3212}
+{"a":"l8","b":"l9","aWhite":true,"scoreA":1,"ms":3767}
+{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":717}
+{"a":"l9","b":"l10","aWhite":true,"scoreA":0,"ms":903}
+{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":2088}
+{"a":"l10","b":"l11","aWhite":true,"scoreA":0,"ms":1849}
+{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":7684}
+{"a":"l9","b":"l11","aWhite":true,"scoreA":0.5,"ms":2107}
+{"a":"l11","b":"l12","aWhite":true,"scoreA":0,"ms":1693}
+{"a":"l10","b":"l12","aWhite":true,"scoreA":0,"ms":2716}
+{"a":"l1","b":"l2","aWhite":false,"scoreA":0,"ms":2218}
+{"a":"l2","b":"l3","aWhite":false,"scoreA":0.5,"ms":2202}
+{"a":"l3","b":"l4","aWhite":false,"scoreA":0.5,"ms":3776}
+{"a":"l4","b":"l5","aWhite":false,"scoreA":0,"ms":5626}
+{"a":"l5","b":"l6","aWhite":false,"scoreA":1,"ms":6055}
+{"a":"l6","b":"l7","aWhite":false,"scoreA":0,"ms":6419}
+{"a":"l1","b":"l3","aWhite":false,"scoreA":0.5,"ms":3619}
+{"a":"l2","b":"l4","aWhite":false,"scoreA":0,"ms":3259}
+{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":2228}
+{"a":"l3","b":"l5","aWhite":false,"scoreA":0.5,"ms":6827}
+{"a":"l7","b":"l8","aWhite":false,"scoreA":0,"ms":13109}
+{"a":"l8","b":"l9","aWhite":false,"scoreA":0,"ms":1834}
+{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":2151}
+{"a":"l6","b":"l8","aWhite":false,"scoreA":0,"ms":7617}
+{"a":"l5","b":"l7","aWhite":false,"scoreA":0.5,"ms":10058}
+{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":2785}
+{"a":"l9","b":"l10","aWhite":false,"scoreA":0,"ms":453}
+{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":1049}
+{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":1127}
+{"a":"l10","b":"l11","aWhite":false,"scoreA":1,"ms":1527}
+{"a":"l11","b":"l12","aWhite":false,"scoreA":0,"ms":1966}
+{"a":"l10","b":"l12","aWhite":false,"scoreA":0,"ms":1758}
+{"a":"l1","b":"l2","aWhite":true,"scoreA":0.5,"ms":2984}
+{"a":"l2","b":"l3","aWhite":true,"scoreA":0,"ms":2739}
+{"a":"l3","b":"l4","aWhite":true,"scoreA":0,"ms":4806}
+{"a":"l5","b":"l6","aWhite":true,"scoreA":0,"ms":6974}
+{"a":"l6","b":"l7","aWhite":true,"scoreA":0,"ms":4808}
+{"a":"l4","b":"l5","aWhite":true,"scoreA":0,"ms":9257}
+{"a":"l1","b":"l3","aWhite":true,"scoreA":0.5,"ms":3627}
+{"a":"l2","b":"l4","aWhite":true,"scoreA":0.5,"ms":3910}
+{"a":"l3","b":"l5","aWhite":true,"scoreA":0,"ms":2896}
+{"a":"l7","b":"l8","aWhite":true,"scoreA":0.5,"ms":9680}
+{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":4477}
+{"a":"l8","b":"l9","aWhite":true,"scoreA":0,"ms":1384}
+{"a":"l5","b":"l7","aWhite":true,"scoreA":1,"ms":5343}
+{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":1855}
+{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":1302}
+{"a":"l9","b":"l10","aWhite":true,"scoreA":1,"ms":1028}
+{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":1451}
+{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":1071}
+{"a":"l10","b":"l11","aWhite":true,"scoreA":1,"ms":1453}
+{"a":"l11","b":"l12","aWhite":true,"scoreA":0,"ms":1661}
+{"a":"l10","b":"l12","aWhite":true,"scoreA":0,"ms":1314}
+{"a":"l1","b":"l2","aWhite":false,"scoreA":0,"ms":802}
+{"a":"l3","b":"l4","aWhite":false,"scoreA":0,"ms":1896}
+{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":11738}
+{"a":"l2","b":"l3","aWhite":false,"scoreA":0.5,"ms":4208}
+{"a":"l5","b":"l6","aWhite":false,"scoreA":0,"ms":3893}
+{"a":"l4","b":"l5","aWhite":false,"scoreA":0,"ms":5760}
+{"a":"l1","b":"l3","aWhite":false,"scoreA":0,"ms":801}
+{"a":"l6","b":"l7","aWhite":false,"scoreA":0,"ms":5390}
+{"a":"l2","b":"l4","aWhite":false,"scoreA":0,"ms":1752}
+{"a":"l3","b":"l5","aWhite":false,"scoreA":0.5,"ms":3797}
+{"a":"l7","b":"l8","aWhite":false,"scoreA":0,"ms":7251}
+{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":4406}
+{"a":"l5","b":"l7","aWhite":false,"scoreA":0,"ms":3563}
+{"a":"l8","b":"l9","aWhite":false,"scoreA":0,"ms":2634}
+{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":1361}
+{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":2499}
+{"a":"l6","b":"l8","aWhite":false,"scoreA":1,"ms":4751}
+{"a":"l9","b":"l10","aWhite":false,"scoreA":0,"ms":826}
+{"a":"l10","b":"l11","aWhite":false,"scoreA":0,"ms":829}
+{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":1539}
+{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":833}
+{"a":"l10","b":"l12","aWhite":false,"scoreA":0,"ms":946}
+{"a":"l11","b":"l12","aWhite":false,"scoreA":0,"ms":1502}
+{"a":"l1","b":"l2","aWhite":true,"scoreA":0.5,"ms":2257}
+{"a":"l2","b":"l3","aWhite":true,"scoreA":0.5,"ms":4838}
+{"a":"l4","b":"l5","aWhite":true,"scoreA":0,"ms":3515}
+{"a":"l3","b":"l4","aWhite":true,"scoreA":0.5,"ms":5721}
+{"a":"l5","b":"l6","aWhite":true,"scoreA":0,"ms":6150}
+{"a":"l1","b":"l3","aWhite":true,"scoreA":1,"ms":358}
+{"a":"l7","b":"l8","aWhite":true,"scoreA":0,"ms":6181}
+{"a":"l6","b":"l7","aWhite":true,"scoreA":1,"ms":10115}
+{"a":"l2","b":"l4","aWhite":true,"scoreA":0.5,"ms":4014}
+{"a":"l3","b":"l5","aWhite":true,"scoreA":0,"ms":4519}
+{"a":"l4","b":"l6","aWhite":true,"scoreA":0.5,"ms":2900}
+{"a":"l8","b":"l9","aWhite":true,"scoreA":1,"ms":1284}
+{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":3961}
+{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":1288}
+{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":894}
+{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":2261}
+{"a":"l6","b":"l8","aWhite":true,"scoreA":1,"ms":5104}
+{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":1112}
+{"a":"l9","b":"l10","aWhite":true,"scoreA":0,"ms":1345}
+{"a":"l10","b":"l11","aWhite":true,"scoreA":1,"ms":1890}
+{"a":"l10","b":"l12","aWhite":true,"scoreA":0.5,"ms":1488}
+{"a":"l1","b":"l2","aWhite":false,"scoreA":0.5,"ms":2462}
+{"a":"l2","b":"l3","aWhite":false,"scoreA":0.5,"ms":3956}
+{"a":"l3","b":"l4","aWhite":false,"scoreA":0.5,"ms":3344}
+{"a":"l11","b":"l12","aWhite":true,"scoreA":0.5,"ms":7063}
+{"a":"l4","b":"l5","aWhite":false,"scoreA":0.5,"ms":4315}
+{"a":"l6","b":"l7","aWhite":false,"scoreA":0,"ms":2925}
+{"a":"l1","b":"l3","aWhite":false,"scoreA":0,"ms":3822}
+{"a":"l5","b":"l6","aWhite":false,"scoreA":0.5,"ms":7614}
+{"a":"l7","b":"l8","aWhite":false,"scoreA":0,"ms":6923}
+{"a":"l2","b":"l4","aWhite":false,"scoreA":0,"ms":4200}
+{"a":"l3","b":"l5","aWhite":false,"scoreA":0,"ms":4343}
+{"a":"l4","b":"l6","aWhite":false,"scoreA":0.5,"ms":8850}
+{"a":"l5","b":"l7","aWhite":false,"scoreA":0,"ms":7709}
+{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":2783}
+{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":2918}
+{"a":"l6","b":"l8","aWhite":false,"scoreA":0.5,"ms":13202}
+{"a":"l9","b":"l10","aWhite":false,"scoreA":1,"ms":1003}
+{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":1554}
+{"a":"l9","b":"l11","aWhite":false,"scoreA":1,"ms":1030}
+{"a":"l10","b":"l11","aWhite":false,"scoreA":0.5,"ms":2314}
+{"a":"l11","b":"l12","aWhite":false,"scoreA":0,"ms":1578}
+{"a":"l8","b":"l9","aWhite":false,"scoreA":1,"ms":10660}
+{"a":"l10","b":"l12","aWhite":false,"scoreA":1,"ms":2197}
+{"a":"l1","b":"l2","aWhite":true,"scoreA":0,"ms":2739}
+{"a":"l3","b":"l4","aWhite":true,"scoreA":0,"ms":3020}
+{"a":"l2","b":"l3","aWhite":true,"scoreA":0.5,"ms":3895}
+{"a":"l4","b":"l5","aWhite":true,"scoreA":0.5,"ms":6584}
+{"a":"l5","b":"l6","aWhite":true,"scoreA":0.5,"ms":7119}
+{"a":"l6","b":"l7","aWhite":true,"scoreA":1,"ms":11057}
+{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":4853}
+{"a":"l7","b":"l8","aWhite":true,"scoreA":1,"ms":7610}
+{"a":"l3","b":"l5","aWhite":true,"scoreA":0,"ms":3119}
+{"a":"l2","b":"l4","aWhite":true,"scoreA":0.5,"ms":4998}
+{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":4523}
+{"a":"l8","b":"l9","aWhite":true,"scoreA":0,"ms":2079}
+{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":4854}
+{"a":"l5","b":"l7","aWhite":true,"scoreA":0.5,"ms":6237}
+{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":1465}
+{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":4284}
+{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":2921}
+{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":624}
+{"a":"l9","b":"l10","aWhite":true,"scoreA":1,"ms":1680}
+{"a":"l10","b":"l11","aWhite":true,"scoreA":0,"ms":1348}
+{"a":"l11","b":"l12","aWhite":true,"scoreA":0,"ms":889}
+{"a":"l10","b":"l12","aWhite":true,"scoreA":0,"ms":1836}
+{"a":"l1","b":"l2","aWhite":false,"scoreA":0.5,"ms":3393}
+{"a":"l2","b":"l3","aWhite":false,"scoreA":0,"ms":3515}
+{"a":"l3","b":"l4","aWhite":false,"scoreA":0,"ms":3649}
+{"a":"l4","b":"l5","aWhite":false,"scoreA":0.5,"ms":6163}
+{"a":"l5","b":"l6","aWhite":false,"scoreA":0,"ms":5474}
+{"a":"l1","b":"l3","aWhite":false,"scoreA":0,"ms":3431}
+{"a":"l6","b":"l7","aWhite":false,"scoreA":0,"ms":7972}
+{"a":"l7","b":"l8","aWhite":false,"scoreA":0,"ms":4246}
+{"a":"l3","b":"l5","aWhite":false,"scoreA":0,"ms":1963}
+{"a":"l2","b":"l4","aWhite":false,"scoreA":0.5,"ms":4338}
+{"a":"l5","b":"l7","aWhite":false,"scoreA":0,"ms":3803}
+{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":6066}
+{"a":"l8","b":"l9","aWhite":false,"scoreA":0,"ms":3800}
+{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":3787}
+{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":1009}
+{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":1154}
+{"a":"l9","b":"l10","aWhite":false,"scoreA":0,"ms":986}
+{"a":"l6","b":"l8","aWhite":false,"scoreA":0,"ms":7943}
+{"a":"l10","b":"l11","aWhite":false,"scoreA":0,"ms":932}
+{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":815}
+{"a":"l1","b":"l2","aWhite":true,"scoreA":0,"ms":794}
+{"a":"l10","b":"l12","aWhite":false,"scoreA":0,"ms":1946}
+{"a":"l11","b":"l12","aWhite":false,"scoreA":0,"ms":2388}
+{"a":"l2","b":"l3","aWhite":true,"scoreA":0.5,"ms":2984}
+{"a":"l4","b":"l5","aWhite":true,"scoreA":1,"ms":1980}
+{"a":"l3","b":"l4","aWhite":true,"scoreA":1,"ms":2875}
+{"a":"l6","b":"l7","aWhite":true,"scoreA":0,"ms":3839}
+{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":1836}
+{"a":"l5","b":"l6","aWhite":true,"scoreA":1,"ms":6428}
+{"a":"l2","b":"l4","aWhite":true,"scoreA":0,"ms":4727}
+{"a":"l3","b":"l5","aWhite":true,"scoreA":0,"ms":4769}
+{"a":"l7","b":"l8","aWhite":true,"scoreA":0.5,"ms":13823}
+{"a":"l5","b":"l7","aWhite":true,"scoreA":0.5,"ms":4986}
+{"a":"l4","b":"l6","aWhite":true,"scoreA":0.5,"ms":5568}
+{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":2009}
+{"a":"l8","b":"l9","aWhite":true,"scoreA":1,"ms":2974}
+{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":1703}
+{"a":"l9","b":"l10","aWhite":true,"scoreA":1,"ms":1995}
+{"a":"l6","b":"l9","aWhite":true,"scoreA":0.5,"ms":3607}
+{"a":"l10","b":"l11","aWhite":true,"scoreA":0,"ms":1280}
+{"a":"l9","b":"l11","aWhite":true,"scoreA":0.5,"ms":1141}
+{"a":"l11","b":"l12","aWhite":true,"scoreA":0.5,"ms":1899}
+{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":10985}
+{"a":"l1","b":"l2","aWhite":false,"scoreA":0.5,"ms":1340}
+{"a":"l10","b":"l12","aWhite":true,"scoreA":0,"ms":3316}
+{"a":"l2","b":"l3","aWhite":false,"scoreA":0,"ms":2542}
+{"a":"l4","b":"l5","aWhite":false,"scoreA":0,"ms":2364}
+{"a":"l3","b":"l4","aWhite":false,"scoreA":0,"ms":5096}
+{"a":"l6","b":"l7","aWhite":false,"scoreA":0,"ms":5052}
+{"a":"l5","b":"l6","aWhite":false,"scoreA":0,"ms":8218}
+{"a":"l1","b":"l3","aWhite":false,"scoreA":0,"ms":2548}
+{"a":"l7","b":"l8","aWhite":false,"scoreA":1,"ms":6827}
+{"a":"l3","b":"l5","aWhite":false,"scoreA":0,"ms":3381}
+{"a":"l2","b":"l4","aWhite":false,"scoreA":0.5,"ms":5381}
+{"a":"l5","b":"l7","aWhite":false,"scoreA":0,"ms":4559}
+{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":9473}
+{"a":"l6","b":"l8","aWhite":false,"scoreA":0,"ms":6030}
+{"a":"l8","b":"l9","aWhite":false,"scoreA":0,"ms":2910}
+{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":1380}
+{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":1439}
+{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":1735}
+{"a":"l10","b":"l11","aWhite":false,"scoreA":0,"ms":995}
+{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":1234}
+{"a":"l9","b":"l10","aWhite":false,"scoreA":1,"ms":2132}
+{"a":"l1","b":"l2","aWhite":true,"scoreA":0,"ms":360}
+{"a":"l11","b":"l12","aWhite":false,"scoreA":0,"ms":1548}
+{"a":"l10","b":"l12","aWhite":false,"scoreA":0,"ms":1401}
+{"a":"l3","b":"l4","aWhite":true,"scoreA":0,"ms":2855}
+{"a":"l4","b":"l5","aWhite":true,"scoreA":0,"ms":3457}
+{"a":"l2","b":"l3","aWhite":true,"scoreA":0.5,"ms":4113}
+{"a":"l5","b":"l6","aWhite":true,"scoreA":1,"ms":3171}
+{"a":"l7","b":"l8","aWhite":true,"scoreA":0,"ms":2782}
+{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":2108}
+{"a":"l2","b":"l4","aWhite":true,"scoreA":0,"ms":2629}
+{"a":"l6","b":"l7","aWhite":true,"scoreA":0,"ms":6041}
+{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":2396}
+{"a":"l3","b":"l5","aWhite":true,"scoreA":0,"ms":3732}
+{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":4703}
+{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":3204}
+{"a":"l8","b":"l9","aWhite":true,"scoreA":0,"ms":3915}
+{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":2217}
+{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":2056}
+{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":3325}
+{"a":"l9","b":"l10","aWhite":true,"scoreA":0,"ms":1436}
+{"a":"l10","b":"l11","aWhite":true,"scoreA":1,"ms":1683}
+{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":1697}
+{"a":"l10","b":"l12","aWhite":true,"scoreA":0,"ms":1892}
+{"a":"l1","b":"l2","aWhite":false,"scoreA":0.5,"ms":3951}
+{"a":"l11","b":"l12","aWhite":true,"scoreA":0.5,"ms":5446}
+{"a":"l2","b":"l3","aWhite":false,"scoreA":1,"ms":3418}
+{"a":"l3","b":"l4","aWhite":false,"scoreA":0,"ms":2719}
+{"a":"l4","b":"l5","aWhite":false,"scoreA":0,"ms":5175}
+{"a":"l6","b":"l7","aWhite":false,"scoreA":1,"ms":3318}
+{"a":"l5","b":"l6","aWhite":false,"scoreA":0.5,"ms":4921}
+{"a":"l2","b":"l4","aWhite":false,"scoreA":0,"ms":1553}
+{"a":"l1","b":"l3","aWhite":false,"scoreA":0.5,"ms":3757}
+{"a":"l3","b":"l5","aWhite":false,"scoreA":0,"ms":2941}
+{"a":"l7","b":"l8","aWhite":false,"scoreA":0,"ms":5192}
+{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":3763}
+{"a":"l5","b":"l7","aWhite":false,"scoreA":1,"ms":4954}
+{"a":"l6","b":"l8","aWhite":false,"scoreA":0,"ms":4951}
+{"a":"l8","b":"l9","aWhite":false,"scoreA":0,"ms":2619}
+{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":1344}
+{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":1503}
+{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":2218}
+{"a":"l9","b":"l10","aWhite":false,"scoreA":0,"ms":1519}
+{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":966}
+{"a":"l10","b":"l11","aWhite":false,"scoreA":1,"ms":1324}
+{"a":"l1","b":"l2","aWhite":true,"scoreA":0,"ms":1299}
+{"a":"l11","b":"l12","aWhite":false,"scoreA":0,"ms":2214}
+{"a":"l10","b":"l12","aWhite":false,"scoreA":0.5,"ms":3073}
+{"a":"l2","b":"l3","aWhite":true,"scoreA":0.5,"ms":3759}
+{"a":"l3","b":"l4","aWhite":true,"scoreA":0,"ms":3408}
+{"a":"l4","b":"l5","aWhite":true,"scoreA":0,"ms":6702}
+{"a":"l6","b":"l7","aWhite":true,"scoreA":0,"ms":4614}
+{"a":"l5","b":"l6","aWhite":true,"scoreA":0,"ms":5793}
+{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":2596}
+{"a":"l2","b":"l4","aWhite":true,"scoreA":0.5,"ms":4198}
+{"a":"l3","b":"l5","aWhite":true,"scoreA":0.5,"ms":5958}
+{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":4234}
+{"a":"l7","b":"l8","aWhite":true,"scoreA":0,"ms":10762}
+{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":4835}
+{"a":"l8","b":"l9","aWhite":true,"scoreA":1,"ms":3944}
+{"a":"l5","b":"l7","aWhite":true,"scoreA":1,"ms":6286}
+{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":716}
+{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":1570}
+{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":1967}
+{"a":"l9","b":"l10","aWhite":true,"scoreA":0,"ms":1378}
+{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":1089}
+{"a":"l10","b":"l11","aWhite":true,"scoreA":0,"ms":1798}
+{"a":"l11","b":"l12","aWhite":true,"scoreA":0,"ms":2032}
+{"a":"l1","b":"l2","aWhite":false,"scoreA":0,"ms":1939}
+{"a":"l10","b":"l12","aWhite":true,"scoreA":0,"ms":2508}
+{"a":"l2","b":"l3","aWhite":false,"scoreA":0,"ms":2201}
+{"a":"l3","b":"l4","aWhite":false,"scoreA":0,"ms":2265}
+{"a":"l5","b":"l6","aWhite":false,"scoreA":0,"ms":2415}
+{"a":"l4","b":"l5","aWhite":false,"scoreA":0,"ms":5318}
+{"a":"l6","b":"l7","aWhite":false,"scoreA":1,"ms":4871}
+{"a":"l1","b":"l3","aWhite":false,"scoreA":0,"ms":2546}
+{"a":"l2","b":"l4","aWhite":false,"scoreA":0,"ms":2706}
+{"a":"l7","b":"l8","aWhite":false,"scoreA":0,"ms":6777}
+{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":4746}
+{"a":"l3","b":"l5","aWhite":false,"scoreA":0.5,"ms":7226}
+{"a":"l5","b":"l7","aWhite":false,"scoreA":1,"ms":4816}
+{"a":"l8","b":"l9","aWhite":false,"scoreA":0,"ms":1916}
+{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":1214}
+{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":642}
+{"a":"l8","b":"l10","aWhite":false,"scoreA":0,"ms":3423}
+{"a":"l9","b":"l10","aWhite":false,"scoreA":0,"ms":785}
+{"a":"l10","b":"l11","aWhite":false,"scoreA":0,"ms":1196}
+{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":793}
+{"a":"l10","b":"l12","aWhite":false,"scoreA":0,"ms":1624}
+{"a":"l11","b":"l12","aWhite":false,"scoreA":1,"ms":2260}
+{"a":"l6","b":"l8","aWhite":false,"scoreA":1,"ms":8672}
+{"a":"l1","b":"l2","aWhite":true,"scoreA":0,"ms":1888}
+{"a":"l2","b":"l3","aWhite":true,"scoreA":0,"ms":1607}
+{"a":"l3","b":"l4","aWhite":true,"scoreA":0,"ms":2290}
+{"a":"l6","b":"l7","aWhite":true,"scoreA":0,"ms":5270}
+{"a":"l4","b":"l5","aWhite":true,"scoreA":0,"ms":8342}
+{"a":"l5","b":"l6","aWhite":true,"scoreA":0.5,"ms":9107}
+{"a":"l1","b":"l3","aWhite":true,"scoreA":0,"ms":2433}
+{"a":"l2","b":"l4","aWhite":true,"scoreA":0.5,"ms":4472}
+{"a":"l7","b":"l8","aWhite":true,"scoreA":0.5,"ms":11328}
+{"a":"l3","b":"l5","aWhite":true,"scoreA":0.5,"ms":7588}
+{"a":"l4","b":"l6","aWhite":true,"scoreA":0,"ms":5403}
+{"a":"l8","b":"l9","aWhite":true,"scoreA":0,"ms":1912}
+{"a":"l5","b":"l7","aWhite":true,"scoreA":0,"ms":3836}
+{"a":"l8","b":"l10","aWhite":true,"scoreA":0,"ms":1206}
+{"a":"l6","b":"l9","aWhite":true,"scoreA":0,"ms":1053}
+{"a":"l7","b":"l9","aWhite":true,"scoreA":0,"ms":1303}
+{"a":"l9","b":"l10","aWhite":true,"scoreA":0,"ms":761}
+{"a":"l10","b":"l11","aWhite":true,"scoreA":1,"ms":842}
+{"a":"l9","b":"l11","aWhite":true,"scoreA":0,"ms":738}
+{"a":"l11","b":"l12","aWhite":true,"scoreA":1,"ms":1958}
+{"a":"l10","b":"l12","aWhite":true,"scoreA":0,"ms":1523}
+{"a":"l6","b":"l8","aWhite":true,"scoreA":0,"ms":8053}
+{"a":"l1","b":"l2","aWhite":false,"scoreA":0,"ms":984}
+{"a":"l2","b":"l3","aWhite":false,"scoreA":1,"ms":1615}
+{"a":"l5","b":"l6","aWhite":false,"scoreA":0,"ms":2938}
+{"a":"l4","b":"l5","aWhite":false,"scoreA":0,"ms":3866}
+{"a":"l6","b":"l7","aWhite":false,"scoreA":1,"ms":3494}
+{"a":"l3","b":"l4","aWhite":false,"scoreA":0.5,"ms":7954}
+{"a":"l1","b":"l3","aWhite":false,"scoreA":0,"ms":148}
+{"a":"l2","b":"l4","aWhite":false,"scoreA":1,"ms":1659}
+{"a":"l7","b":"l8","aWhite":false,"scoreA":1,"ms":9455}
+{"a":"l4","b":"l6","aWhite":false,"scoreA":0,"ms":4778}
+{"a":"l3","b":"l5","aWhite":false,"scoreA":0.5,"ms":7552}
+{"a":"l8","b":"l9","aWhite":false,"scoreA":0,"ms":2956}
+{"a":"l6","b":"l8","aWhite":false,"scoreA":1,"ms":5267}
+{"a":"l5","b":"l7","aWhite":false,"scoreA":0,"ms":6383}
+{"a":"l7","b":"l9","aWhite":false,"scoreA":0,"ms":1123}
+{"a":"l9","b":"l10","aWhite":false,"scoreA":1,"ms":842}
+{"a":"l6","b":"l9","aWhite":false,"scoreA":0,"ms":1737}
+{"a":"l10","b":"l11","aWhite":false,"scoreA":0,"ms":1329}
+{"a":"l9","b":"l11","aWhite":false,"scoreA":0,"ms":915}
+{"a":"l11","b":"l12","aWhite":false,"scoreA":1,"ms":1842}
+{"a":"l10","b":"l12","aWhite":false,"scoreA":0,"ms":2189}
+{"a":"l8","b":"l10","aWhite":false,"scoreA":0.5,"ms":7875}

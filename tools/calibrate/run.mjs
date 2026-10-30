@@ -3,8 +3,8 @@
 //   node tools/calibrate/run.mjs play [games-per-pair] [workers]   -> appends results to tools/calibrate/results.jsonl
 //   node tools/calibrate/run.mjs fit                               -> fits ratings and prints them
 //
-// Bots 9 to 16 use Stockfish's UCI_Elo and are held at those values (the anchor). Bots 1 to 8 get
-// fitted ratings from games against their neighbours, by maximum likelihood on the Elo model.
+// Bots 9 to 16 use Stockfish's UCI_Elo. The fit keeps the average of the Stockfish levels that
+// played at the average of their UCI_Elo values (the anchor) and places everything else around it.
 // It uses the same engine build and the same move-choice code as the website.
 
 import { spawn, fork } from 'node:child_process';
@@ -30,7 +30,7 @@ const PAIRS = [
   ['l1', 'l2'], ['l2', 'l3'], ['l3', 'l4'], ['l4', 'l5'], ['l5', 'l6'], ['l6', 'l7'], ['l7', 'l8'],
   ['l1', 'l3'], ['l2', 'l4'], ['l3', 'l5'], ['l4', 'l6'], ['l5', 'l7'], ['l6', 'l8'],
   ['l8', 'l9'], ['l8', 'l10'], ['l7', 'l9'], ['l6', 'l9'],
-  ['l9', 'l10'], ['l10', 'l11'], ['l9', 'l11'],
+  ['l9', 'l10'], ['l10', 'l11'], ['l9', 'l11'], ['l11', 'l12'], ['l10', 'l12'],
 ];
 
 class NodeEngine {
@@ -134,13 +134,20 @@ async function play(perPair, nWorkers) {
   out.end();
 }
 
+// Maximum likelihood on the Elo model. Only differences are measurable, so the scale is pinned by
+// keeping the average of the Stockfish levels that played to the average of their UCI_Elo values.
+// Stockfish levels without games keep their UCI_Elo value.
 function fit() {
   const games = fs.readFileSync(RESULTS, 'utf8').trim().split('\n').map((l) => JSON.parse(l));
-  const fixed = Object.fromEntries(BOTS.filter((b) => b.sf).map((b) => [b.id, b.sf]));
-  const R = Object.fromEntries(BOTS.map((b) => [b.id, fixed[b.id] ?? b.rating]));
-  const prior = Object.fromEntries(BOTS.map((b) => [b.id, b.rating]));
+  const played = new Set(games.flatMap((g) => [g.a, g.b]));
+  const sfPlayed = BOTS.filter((b) => b.sf && played.has(b.id));
+  const nominal = Object.fromEntries(BOTS.map((b) => [b.id, b.sf || b.rating]));
+  const R = { ...nominal };
+  const free = BOTS.filter((b) => played.has(b.id)).map((b) => b.id);
+  const priorSd = (id) => (botById(id).sf ? 200 : 600);
   const K = Math.log(10) / 400;
-  for (let it = 0; it < 4000; it++) {
+  const target = sfPlayed.reduce((a, b) => a + b.sf, 0) / Math.max(1, sfPlayed.length);
+  for (let it = 0; it < 6000; it++) {
     const grad = {};
     for (const g of games) {
       const E = 1 / (1 + Math.pow(10, (R[g.b] - R[g.a]) / 400));
@@ -148,11 +155,17 @@ function fit() {
       grad[g.a] = (grad[g.a] || 0) + d;
       grad[g.b] = (grad[g.b] || 0) - d;
     }
-    for (const id of Object.keys(R)) {
-      if (id in fixed) continue;
-      const gp = (grad[id] || 0) - (R[id] - prior[id]) / (400 * 400); // weak prior
-      R[id] += 2000 * gp;
-    }
+    for (const id of free) R[id] += 1500 * ((grad[id] || 0) - (R[id] - nominal[id]) / (priorSd(id) ** 2));
+    const mean = sfPlayed.reduce((a, b) => a + R[b.id], 0) / Math.max(1, sfPlayed.length);
+    for (const id of free) R[id] += target - mean;
+  }
+  // standard errors from the observed information (diagonal approximation)
+  const info = {};
+  for (const g of games) {
+    const E = 1 / (1 + Math.pow(10, (R[g.b] - R[g.a]) / 400));
+    const i = K * K * E * (1 - E);
+    info[g.a] = (info[g.a] || 0) + i;
+    info[g.b] = (info[g.b] || 0) + i;
   }
   const tally = {};
   for (const g of games) {
@@ -163,8 +176,12 @@ function fit() {
   console.log('pair results (score of first bot):');
   for (const [k, t] of Object.entries(tally)) console.log(`  ${k.padEnd(9)} ${t.s}/${t.n}  (${Math.round((100 * t.s) / t.n)}%)`);
   console.log('fitted ratings:');
-  for (const b of BOTS) console.log(`  ${b.id.padEnd(4)} ${String(Math.round(R[b.id])).padStart(5)}${b.id in fixed ? '  (anchor)' : ''}`);
-  console.log('games:', games.length, ' avg ms/game:', Math.round(games.reduce((a, g) => a + g.ms, 0) / games.length));
+  for (const b of BOTS) {
+    const se = info[b.id] ? Math.round(1 / Math.sqrt(info[b.id])) : null;
+    console.log(`  ${b.id.padEnd(4)} ${String(Math.round(R[b.id])).padStart(5)}  ${se ? '+/- ' + se : ''}${b.sf ? '  (UCI_Elo ' + b.sf + (played.has(b.id) ? '' : ', no games') + ')' : ''}`);
+  }
+  console.log('games:', games.length, ' avg ms/game:', Math.round(games.reduce((a, g) => a + (g.ms || 0), 0) / games.length));
+  console.log('ratings:', JSON.stringify(Object.fromEntries(BOTS.map((b) => [b.id, Math.round(R[b.id] / 10) * 10]))));
 }
 
 const cmd = process.argv[2];

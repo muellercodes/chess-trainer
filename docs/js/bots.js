@@ -5,20 +5,21 @@
 // the bot picks among them with a softmax (temperature in centipawns), plus a share of
 // purely random moves. Levels 9 and up use Stockfish's own UCI_LimitStrength / UCI_Elo.
 //
-// The ratings below come from self-play calibration (tools/calibrate), anchored to
-// Stockfish's UCI_Elo scale. See README for what that scale means.
+// Ratings: levels 9 to 16 are Stockfish's UCI_Elo. Levels 1 to 8 come from 760 bot-vs-bot games
+// (tools/calibrate, Oct 2026) fitted on the Elo model with levels 9 to 12 as the anchor; those four
+// fitted to within 20 points of their UCI_Elo values. Standard errors for levels 1 to 8: 35 to 50.
 
 export const BOT_RD = 60; // how sure we are about each bot's rating
 
 export const BOTS = [
-  { id: 'l1', level: 1, rating: 300, weak: { depth: 2, random: 0.4, temp: 450 } },
-  { id: 'l2', level: 2, rating: 450, weak: { depth: 3, random: 0.24, temp: 280 } },
-  { id: 'l3', level: 3, rating: 600, weak: { depth: 4, random: 0.19, temp: 230 } },
-  { id: 'l4', level: 4, rating: 750, weak: { depth: 5, random: 0.15, temp: 190 } },
-  { id: 'l5', level: 5, rating: 900, weak: { depth: 5, random: 0.13, temp: 165 } },
-  { id: 'l6', level: 6, rating: 1050, weak: { depth: 6, random: 0.08, temp: 115 } },
-  { id: 'l7', level: 7, rating: 1200, weak: { depth: 6, random: 0.065, temp: 95 } },
-  { id: 'l8', level: 8, rating: 1325, weak: { depth: 7, random: 0.05, temp: 80 } },
+  { id: 'l1', level: 1, rating: 220, weak: { depth: 2, random: 0.4, temp: 450 } },
+  { id: 'l2', level: 2, rating: 430, weak: { depth: 3, random: 0.24, temp: 280 } },
+  { id: 'l3', level: 3, rating: 500, weak: { depth: 4, random: 0.19, temp: 230 } },
+  { id: 'l4', level: 4, rating: 620, weak: { depth: 5, random: 0.13, temp: 165 } },
+  { id: 'l5', level: 5, rating: 850, weak: { depth: 6, random: 0.1, temp: 140 } },
+  { id: 'l6', level: 6, rating: 950, weak: { depth: 6, random: 0.08, temp: 115 } },
+  { id: 'l7', level: 7, rating: 1050, weak: { depth: 6, random: 0.065, temp: 95 } },
+  { id: 'l8', level: 8, rating: 1240, weak: { depth: 7, random: 0.05, temp: 80 } },
   { id: 'l9', level: 9, rating: 1450, sf: 1450 },
   { id: 'l10', level: 10, rating: 1600, sf: 1600 },
   { id: 'l11', level: 11, rating: 1750, sf: 1750 },
