@@ -1,7 +1,7 @@
 // Game review: engine analysis of every position, move classification, accuracy,
 // an evaluation graph, and "retry" on your mistakes.
 
-import { h, clear, toast, fmtDateTime, svgEl, ICONS } from '../util.js';
+import { h, clear, scrollWithin, toast, fmtDateTime, svgEl, ICONS } from '../util.js';
 import { Board } from '../board.js';
 import { Chess, dests, checkSquare, endInfo, sanOf, lineSan, START_FEN, playUci } from '../chessutil.js';
 import { anaEngine, winPct, cpOf } from '../engine.js';
@@ -152,7 +152,7 @@ export async function render(view, route) {
         m.san, mi && mi.cls ? h('span', { class: 'sym ' + CLS[mi.cls] }, SYMBOL[mi.cls]) : null));
     });
     const cur = movesEl.querySelector('.cur');
-    if (cur) cur.scrollIntoView({ block: 'nearest' });
+    if (cur) scrollWithin(movesEl, cur);
   }
 
   function drawKey() {

@@ -31,6 +31,14 @@ function add(el, kids) {
   }
 }
 
+// Scroll a scrollable box so el is visible inside it, without moving the page.
+export function scrollWithin(box, el) {
+  const b = box.getBoundingClientRect();
+  const r = el.getBoundingClientRect();
+  if (r.top < b.top) box.scrollTop += r.top - b.top;
+  else if (r.bottom > b.bottom) box.scrollTop += r.bottom - b.bottom;
+}
+
 export function clear(el) { while (el.firstChild) el.removeChild(el.firstChild); return el; }
 
 export function toast(msg, ms = 2600) {

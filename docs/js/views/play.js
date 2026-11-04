@@ -1,6 +1,6 @@
 // Playing a game: rated, practice (with coach), drills and the two-sided analysis board.
 
-import { h, clear, sleep, modal, toast, signed, ICONS } from '../util.js';
+import { h, clear, scrollWithin, sleep, modal, toast, signed, ICONS } from '../util.js';
 import { Board } from '../board.js';
 import { Chess, dests, legalUcis, checkSquare, playUci, endInfo, resultFor, START_FEN, sanOf, lineSan, sideName } from '../chessutil.js';
 import { playEngine, anaEngine, winPct, cpOf } from '../engine.js';
@@ -197,7 +197,7 @@ export async function render(view) {
       row.appendChild(h('div', { class: 'mv' + (ply === cur ? ' cur' : ''), onclick: () => showPly(ply) }, m.san));
     });
     const curEl = movesEl.querySelector('.cur');
-    if (curEl) curEl.scrollIntoView({ block: 'nearest' });
+    if (curEl) scrollWithin(movesEl, curEl);
   }
 
   function showPly(ply) {
