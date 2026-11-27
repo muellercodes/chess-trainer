@@ -71,8 +71,22 @@ function renderTopRight() {
   } else {
     box.appendChild(h('a', { class: 'btn small', href: '#/login' }, 'Sign in'));
   }
+  // "Report a bug": the form is an outside script (index.html) shared by all the games, so there is no button without it.
+  if (window.BugReport) {
+    box.appendChild(h('button', { class: 'iconbtn', type: 'button', title: 'Report a bug', 'aria-label': 'Report a bug', html: ICONS.bug, onclick: () => window.BugReport.open() }));
+  }
   box.appendChild(h('a', { class: 'iconbtn', href: '#/settings', title: 'Settings', html: ICONS.gear }));
 }
+
+// What the bug report says about where the player was: the page, and the position if a board is showing.
+window.bugReportContext = () => {
+  const o = { page: location.hash || '#/', signedIn: !!store.state.user };
+  try {
+    const g = store.state.ratings.game; if (g && g.n > 0) o.rating = Math.round(g.r);
+    const b = document.querySelector('.cb[data-fen]'); if (b) o.board = b.dataset.fen;
+  } catch (e) { o.error = String((e && e.message) || e); }
+  return o;
+};
 
 export function applyStyle() {
   const s = store.getStyle();

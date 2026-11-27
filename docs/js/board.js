@@ -180,6 +180,7 @@ export class Board {
     const next = typeof p === 'string' ? fenToPos(p) : { ...p };
     const old = this.pos;
     this.pos = next;
+    this.el.dataset.fen = posToBoardFen(next);   // read by the bug report (app.js)
     if ('lastMove' in opts) this.lastMove = opts.lastMove;
     if ('check' in opts) this.check = opts.check;
     const animate = opts.animate !== false;
