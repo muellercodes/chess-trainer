@@ -80,6 +80,10 @@ GitHub Pages serves `docs/` from `main`.
 
 Usernames listed in `ADMINS` (worker/wrangler.toml) get an Admin page under Settings: list accounts, set a new password for anyone (there is no email, so this is how resets work), and delete accounts.
 
+## Bug reports
+
+The bug button in the header, next to the gear, takes a picture of the page, asks what went wrong, and sends it to [games.mueller.codes](https://games.mueller.codes), which keeps the reports for all the games. The form is one outside script in `docs/index.html`; the button and what it sends about the page (which page, and the position on the board) are in `docs/js/app.js`. Without the script there is no button. How to read the reports is in the games.mueller.codes README.
+
 ## License
 
 MIT for this project's code. Stockfish is GPL v3 and the piece sets and puzzles have their own licenses; see [CREDITS.md](CREDITS.md).
